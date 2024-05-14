@@ -3,8 +3,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Long Running Task</title>
+    <title>Hack the CIA</title>
     <style>
+        .ansi30 { color: #000000; }
+        .ansi31 { color: #FF0000; }
+        .ansi32 { color: #00FF00; }
+        .ansi33 { color: #FFFF00; }
+        .ansi34 { color: #0000FF; }
+        .ansi35 { color: #FF00FF; }
+        .ansi36 { color: #00FFFF; }
+        .ansi37 { color: #FFFFFF; }
+        .ansi90 { color: #444444; }
+        .ansi91 { color: #FF4444; }
+        .ansi92 { color: #44FF44; }
+        .ansi93 { color: #FFFF44; }
+        .ansi94 { color: #4444FF; }
+        .ansi95 { color: #FF44FF; }
+        .ansi96 { color: #44FFFF; }
+        .ansi97 { color: #DDDDDD; }
+
         #output-container {
             max-height: 400px; /* 设置最大高度 */
             overflow-y: auto; /* 添加垂直滚动条 */
@@ -13,23 +30,59 @@
     </style>
 </head>
 <body>
-    <h1>Long Running Task</h1>
-    <button onclick="runTask()">Run Task</button>
+    <h1>Web GyoiThon Project</h1>
+    <button onclick="runTask()">Run Penetration</button>
+    <button onclick="getTotalTasks()">Get Total Tasks</button>
+    <button onclick="getAllTaskIds()">Get All Task IDs</button>
+    <button onclick="terminateTask()">Terminate Task</button>
     <div id="output-container">
         <pre id="output"></pre>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
+        let intervalId;
+
         function runTask() {
-            $.get('/api/run_task', function(taskId) {
-                var intervalId = setInterval(function() {
+            $.post('/api/start_task', function(taskId) {
+                intervalId = setInterval(function() {
                     $.get('/api/task_status/' + taskId, function(data) {
                         $('#output').html(data);
                         $('#output-container').scrollTop($('#output-container')[0].scrollHeight); // 滚动到底部
                     });
                 }, 1000);
             });
+        }
+
+        function getTotalTasks() {
+            $.get('/api/total_tasks', function(data) {
+                alert('Total tasks: ' + data.total_tasks);
+            });
+        }
+
+        function getAllTaskIds() {
+            $.get('/api/all_task_ids', function(data) {
+                alert('All task IDs: ' + data.task_ids.join(', '));
+            });
+        }
+
+        function terminateTask() {
+            var task_id = prompt('Enter Task ID to terminate:');
+            if (task_id) {
+                $.ajax({
+                    url: '/api/terminate_task',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({'task_id': task_id}),
+                    success: function(response) {
+                        alert('Task ' + response.task_id + ' terminated.');
+                        clearInterval(intervalId);
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Failed to terminate task: ' + error);
+                    }
+                });
+            }
         }
     </script>
 </body>

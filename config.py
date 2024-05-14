@@ -40,5 +40,3 @@ config = {
     'production': ProductionConfig,
     'default': DevelopmentConfig
 }
-
-work_dir = os.path.dirname(os.path.abspath(__file__))
