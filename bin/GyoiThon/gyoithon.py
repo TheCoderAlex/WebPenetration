@@ -240,7 +240,8 @@ if __name__ == '__main__':
         exit(1)
 
     # Show banner.
-    show_banner(utility)
+    # Sorry for that. But you are so fucking big.
+    # show_banner(utility)
 
     # Define target information's container for health check.
     protocol_list = []

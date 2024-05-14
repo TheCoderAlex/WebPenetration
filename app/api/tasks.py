@@ -57,10 +57,23 @@ def run_task():
 def task_status(task_id):
     task = run_gyoithon.AsyncResult(task_id)
     if task.state == 'PROGRESS':
+        if task_id in non_progress_count:
+            non_progress_count[task_id] = 0
         return task.info['output']
     elif task.state == 'SUCCESS':
-        return 'Task completed with return code: {}\n{}'.format(task.info['code'], task.info['output'])
+        if task_id in non_progress_count:
+            del non_progress_count[task_id]
+        celery.control.revoke(task_id, terminate=True)
+        task_ids.remove(task_id)
+        return 'Task completed with return code: {}'.format(task.info['code'])
     else:
+        if task_id in non_progress_count:
+            non_progress_count[task_id] += 1
+            if non_progress_count[task_id] >= STOP_THRESHOLD:
+                celery.control.revoke(task_id, terminate=True)
+                task_ids.remove(task_id)
+                return 'Task terminated due to inactivity.'
+        else:
+            non_progress_count[task_id] = 1
         return 'Task is not running or does not exist.'
 
-# TODO: Add a check for the number of tasks not running, and if it exceeds a threshold, stop the task.

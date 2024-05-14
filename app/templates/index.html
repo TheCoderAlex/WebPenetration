@@ -48,6 +48,9 @@
                 intervalId = setInterval(function() {
                     $.get('/api/task_status/' + taskId, function(data) {
                         $('#output').html(data);
+                        if (typeof data === 'string' && (data === 'Task is not running or does not exist.' || data.startsWith('Task completed with return code'))) {
+                            clearInterval(intervalId);
+                        }
                         $('#output-container').scrollTop($('#output-container')[0].scrollHeight); // 滚动到底部
                     });
                 }, 1000);
