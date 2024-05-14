@@ -1,0 +1,365 @@
+#!/bin/env python
+# -*- coding: utf-8 -*-
+import os
+import sys
+import string
+import random
+import re
+import urllib
+import urllib3
+import cchardet
+import socket
+import ipaddress
+import configparser
+import ssl
+from urllib3 import util
+from urllib.parse import urlencode, urlparse
+from datetime import datetime
+from logging import getLogger, FileHandler, Formatter
+
+# Printing colors.
+OK_BLUE = '\033[94m'      # [*]
+NOTE_GREEN = '\033[92m'   # [+]
+FAIL_RED = '\033[91m'     # [-]
+WARN_YELLOW = '\033[93m'  # [!]
+ENDC = '\033[0m'
+PRINT_OK = OK_BLUE + '[*]' + ENDC
+PRINT_NOTE = NOTE_GREEN + '[+]' + ENDC
+PRINT_FAIL = FAIL_RED + '[-]' + ENDC
+PRINT_WARN = WARN_YELLOW + '[!]' + ENDC
+
+# Type of printing.
+OK = 'ok'         # [*]
+NOTE = 'note'     # [+]
+FAIL = 'fail'     # [-]
+WARNING = 'warn'  # [!]
+NONE = 'none'     # No label.
+
+
+# Utility class.
+class Utilty:
+    def __init__(self):
+        # Read config.ini.
+        full_path = os.path.dirname(os.path.abspath(__file__))
+        config = configparser.ConfigParser()
+        config.read(os.path.join(full_path, 'config.ini'))
+
+        try:
+            self.banner_delay = float(config['Common']['banner_delay'])
+            self.report_date_format = config['Common']['date_format']
+            self.con_timeout = float(config['Common']['con_timeout'])
+            self.log_dir = config['Common']['log_path']
+            self.log_file = config['Common']['log_file']
+            self.log_path = os.path.join(os.path.join(full_path, self.log_dir), self.log_file)
+            self.modules_dir = config['Common']['module_path']
+            self.proxy = config['Common']['proxy']
+            self.proxy_user = config['Common']['proxy_user']
+            self.proxy_pass = config['Common']['proxy_pass']
+            self.ua = config['Common']['user-agent']
+            self.encoding = config['Common']['default_charset']
+            if config['Common']['redirect'] == '0':
+                self.redirect = False
+            else:
+                self.redirect = True
+            self.target_host = ''
+        except Exception as e:
+            self.print_message(FAIL, 'Reading config.ini is failure : {}'.format(e))
+            sys.exit(1)
+
+        # Setting logger.
+        self.logger = getLogger('GyoiThon')
+        self.logger.setLevel(20)
+        file_handler = FileHandler(self.log_path)
+        self.logger.addHandler(file_handler)
+        formatter = Formatter('%(levelname)s,%(message)s')
+        file_handler.setFormatter(formatter)
+
+        # Set HTTP request header.
+        self.http_req_header = {'User-Agent': self.ua,
+                                'Connection': 'keep-alive',
+                                'Accept-Language': 'ja,en-US;q=0.7,en;q=0.3',
+                                'Accept-Encoding': 'gzip, deflate',
+                                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                                'Upgrade-Insecure-Requests': '1',
+                                'Content-Type': 'application/x-www-form-urlencoded',
+                                'Cache-Control': 'no-cache'}
+
+        # Type of log label.
+        self.log_in = 'In'
+        self.log_out = 'Out'
+        self.log_mid = '-'
+        self.log_dis = 'Discovery'
+        self.log_att = 'Attack'
+
+    # Print metasploit's symbol.
+    def print_message(self, type, message):
+        if os.name == 'nt':
+            if type == NOTE:
+                print('[+] ' + message)
+            elif type == FAIL:
+                print('[-] ' + message)
+            elif type == WARNING:
+                print('[!] ' + message)
+            elif type == NONE:
+                print(message)
+            else:
+                print('[*] ' + message)
+        else:
+            if type == NOTE:
+                print(PRINT_NOTE + ' ' + message)
+            elif type == FAIL:
+                print(PRINT_FAIL + ' ' + message)
+            elif type == WARNING:
+                print(PRINT_WARN + ' ' + message)
+            elif type == NONE:
+                print(NOTE_GREEN + message + ENDC)
+            else:
+                print(PRINT_OK + ' ' + message)
+
+    # Print exception messages.
+    def print_exception(self, e, message):
+        self.print_message(WARNING, 'type:{}'.format(type(e)))
+        self.print_message(WARNING, 'args:{}'.format(e.args))
+        self.print_message(WARNING, '{}'.format(e))
+        self.print_message(WARNING, message)
+
+    # Create log message.
+    def make_log_msg(self, in_out, phase, basename, action='', note='', dest='', src='GyoiThon'):
+        if in_out not in ['In', 'Out', '-']:
+            in_out = 'Unknown'
+        if phase not in ['Discovery', 'Attack']:
+            phase = 'Unknown'
+        if action == '':
+            action = 'Unknown'
+        return '[{}] Phase:[{}], Action:[{}], Note:[{}], To:[{}], From:[{}] [{}]'.format(in_out,
+                                                                                         phase,
+                                                                                         action,
+                                                                                         note,
+                                                                                         dest,
+                                                                                         src,
+                                                                                         basename)
+
+    # Write logs.
+    def write_log(self, loglevel, message):
+        self.logger.log(loglevel, self.get_current_date() + ' ' + message)
+
+    # Create random string.
+    def get_random_token(self, length):
+        chars = string.digits + string.ascii_letters
+        return ''.join([random.choice(chars) for _ in range(length)])
+
+    # Get current date.
+    def get_current_date(self, indicate_format=None):
+        if indicate_format is not None:
+            date_format = indicate_format
+        else:
+            date_format = self.report_date_format
+        return datetime.now().strftime(date_format)
+
+    # Transform date from string to object.
+    def transform_date_object(self, target_date, format=None):
+        if format is None:
+            return datetime.strptime(target_date, self.report_date_format)
+        else:
+            return datetime.strptime(target_date, format)
+
+    # Transform date from object to string.
+    def transform_date_string(self, target_date):
+        return target_date.strftime(self.report_date_format)
+
+    # Delete control character.
+    def delete_ctrl_char(self, origin_text):
+        clean_text = ''
+        for char in origin_text:
+            ord_num = ord(char)
+            # Allow LF,CR,SP and symbol, character and numeric.
+            if (ord_num == 10 or ord_num == 13) or (32 <= ord_num <= 126):
+                clean_text += chr(ord_num)
+        return clean_text
+
+    # Check IP address format.
+    def is_valid_ip(self, arg):
+        try:
+            ipaddress.ip_address(arg)
+            return True
+        except ValueError:
+            return False
+
+    # Check argument values.
+    def check_arg_value(self, protocol, fqdn, port, path):
+        # Check protocol.
+        if protocol not in ['http', 'https']:
+            self.print_message(FAIL, 'Invalid protocol : {}'.format(protocol))
+
+        # Check IP address.
+        if isinstance(fqdn, str) is False and isinstance(fqdn, int) is False:
+            self.print_message(FAIL, 'Invalid IP address : {}'.format(fqdn))
+            return False
+
+        # Check port number.
+        if port.isdigit() is False:
+            self.print_message(FAIL, 'Invalid port number : {}'.format(port))
+            return False
+        elif (int(port) < 1) or (int(port) > 65535):
+            self.print_message(FAIL, 'Invalid port number : {}'.format(port))
+            return False
+
+        # Check path.
+        if isinstance(path, str) is False and isinstance(path, int) is False:
+            self.print_message(FAIL, 'Invalid path : {}'.format(path))
+            return False
+        # elif path.startswith('/') is False or path.endswith('/') is False:
+        elif path.startswith('/') is False:
+            self.print_message(FAIL, 'Invalid path : {}'.format(path))
+            return False
+
+        return True
+
+    # Extract hostname from single URL.
+    def transform_url_hostname(self, target_url):
+        return util.parse_url(target_url).host
+
+    # Extract hostname from URL list.
+    def transform_url_hostname_list(self, target_url_list):
+        hostname_list = []
+        for target_url in target_url_list:
+            hostname_list.append(util.parse_url(target_url).host)
+        return list(set(hostname_list))
+
+    # Extract subdomain.
+    def extract_subdomain(self, target_fqdn, domain):
+        subdomain = ''
+        point = target_fqdn.find(domain)
+        if point > 0:
+            subdomain = target_fqdn[:point]
+        elif point == 0:
+            subdomain = domain
+        return subdomain
+
+    # Decode parameter (name and value).
+    def decode_parameter(self, params, enc):
+        parameter = {}
+        for item in params.items():
+            parameter[urllib.parse.quote(item[0], encoding=enc)] = urllib.parse.quote(item[1], encoding=enc)
+        return parameter
+
+    # Send http request.
+    def send_request(self, method, target_url, preload_content=True, query_param=None, body_param=None, enc='utf-8', cert_ignore=False):
+        res_header = ''
+        res_body = ''
+        server_header = '-'
+        res = None
+        content_type_value = ''
+
+        # Initialize empty parameter set.
+        if query_param is None:
+            query_param = {}
+        if body_param is None:
+            body_param = {}
+
+        # Set proxy server.
+        http = None
+        ctx = ssl.create_default_context()
+        ctx.set_ciphers('DEFAULT')
+
+        # Ignore verification of certificate.
+        if cert_ignore:
+            ctx.check_hostname = False
+            urllib3.disable_warnings()
+
+        # ctx.set_ciphers('DEFAULT@SECLEVEL=1')
+        if self.proxy != '':
+            self.print_message(WARNING, 'Set proxy server: {}'.format(self.proxy))
+            if self.proxy_user != '':
+                headers = urllib3.make_headers(proxy_basic_auth=self.proxy_user + ':' + self.proxy_pass)
+                http = urllib3.ProxyManager(timeout=self.con_timeout,
+                                            headers=self.http_req_header,
+                                            proxy_url=self.proxy,
+                                            proxy_headers=headers)
+            else:
+                http = urllib3.ProxyManager(timeout=self.con_timeout,
+                                            headers=self.http_req_header,
+                                            proxy_url=self.proxy)
+        else:
+            if cert_ignore:
+                http = urllib3.PoolManager(timeout=self.con_timeout,
+                                           headers=self.http_req_header,
+                                           ssl_version=ssl.PROTOCOL_TLSv1,
+                                           ssl_context=ctx,
+                                           cert_reqs=ssl.CERT_NONE)
+            else:
+                http = urllib3.PoolManager(timeout=self.con_timeout,
+                                           headers=self.http_req_header,
+                                           ssl_version=ssl.PROTOCOL_TLSv1,
+                                           ssl_context=ctx)
+
+        try:
+            if method.lower() == 'get':
+                res = http.request('GET',
+                                   target_url,
+                                   fields=query_param,
+                                   preload_content=preload_content,
+                                   redirect=self.redirect)
+            else:
+                encoded_args = urlencode(body_param, encoding=enc)
+                res = http.request('POST',
+                                   target_url + '?' + encoded_args,
+                                   preload_content=preload_content,
+                                   redirect=self.redirect)
+
+            for header in res.headers.items():
+                res_header += header[0] + ': ' + header[1] + '\r\n'
+                if header[0].lower() == 'server':
+                    server_header = header[0] + ': ' + header[1]
+                if header[0].lower() == 'content-type':
+                    content_type_value = header[1]
+
+            # Detect encoding.
+            encoding = self.detect_encoding(res.data, content_type_value)
+
+            # Get response body.
+            res_body = res.data.decode(encoding)
+        except Exception as e:
+            self.print_message(WARNING, 'Use default charset: {}'.format(self.encoding))
+            encoding = self.encoding
+            self.print_exception(e, 'Access is failure : {}'.format(target_url))
+            self.write_log(30, 'Accessing is failure : {}'.format(target_url))
+        return res, server_header, res_header, res_body, encoding
+
+    # Forward lookup.
+    def forward_lookup(self, fqdn):
+        try:
+            return socket.gethostbyname(fqdn)
+        except Exception as e:
+            self.print_exception(e, 'Forward lookup error: {}'.format(fqdn))
+            return 'unknown'
+
+    # Reverse lookup.
+    def reverse_lookup(self, ip_addr):
+        try:
+            return socket.gethostbyaddr(ip_addr)
+        except Exception as e:
+            self.print_exception(e, 'Reverse lookup error: {}'.format(ip_addr))
+            return 'unknown'
+
+    # Detect encoding of target site.
+    def detect_encoding(self, data, content_type_value):
+        obj_match = None
+        encoding = ''
+        if content_type_value != '':
+            obj_match = re.search(r'charset=(.*)\Z', content_type_value, flags=re.IGNORECASE)
+
+        if obj_match is not None:
+            encoding = obj_match.group(1)
+            self.print_message(WARNING, 'Set encoding: {}'.format(encoding))
+        else:
+            guess = cchardet.detect(data)
+            if guess['encoding'] is not None:
+                encoding = guess['encoding']
+                self.print_message(WARNING, 'Set encoding: {}'.format(encoding))
+            else:
+                encoding = self.encoding
+                self.print_message(WARNING, 'Charset not detected.')
+                self.print_message(WARNING, 'Use default charset: {}'.format(encoding))
+
+        return encoding

@@ -1,0 +1,149 @@
+CMS@tiki@tikiwiki_cms\/groupware@*@(Powered by TikiWiki)
+CMS@wordpress@wordpress@*@<.*=(.*/wp-).*/.*>
+CMS@wordpress@wordpress@*@(<meta\s+content=[\"']WordPress).*>
+CMS@wordpress@wordpress@*@.*(Powered by WordPress)
+CMS@wordpress@wordpress@*@.*(://.*/xmlrpc.php)
+CMS@wordpress@wordpress@*@.*(WordPress ([0-9]+[\.0-9]*[\.0-9]*)).*
+CMS@wordpress@wordpress@*@.*(WordPress/([0-9]+[\.0-9]*[\.0-9]*)).*
+CMS@sixapart@movabletype@*@.*Movable Type.*(v=([0-9]+[\.0-9]*[\.0-9]*)).*
+CMS@sixapart@movabletype@*@<.*/(mt-.*)/.*>
+CMS@sixapart@movabletype@*@(<.*/mt/.*>)
+CMS@sixapart@movabletype@*@(<meta\s+content=[\"']Movable Type).*>
+CMS@sixapart@movabletype@*@(<meta\s+content=[\"'].*www\.movabletype\.org).*>
+CMS@sixapart@movabletype@*@<center>(Powered by.*Movable Type\s+([0-9]+[\.0-9]*[\.0-9]*)).*</center>
+CMS@lockon@ec-cube@2@Set-Cookie:.*(ECSESSID=.*;)
+CMS@lockon@ec-cube@3@Set-Cookie:.*(eccube=.*;)
+CMS@lockon@ec-cube@*@(eccube\.js)
+CMS@lockon@ec-cube@*@(eccube\.legacy\.js)
+CMS@xoops@xoops@*@(xoopscube\.js)
+CMS@xoops@xoops@*@(xoops\.js)
+CMS@xoops@xoops@*@(xoops\.css)
+CMS@xoops@xoops@*@(<meta\s+content=[\"']XOOPS).*>
+CMS@drupal@drupal@*@.*(data-drupal-link-system-path)
+CMS@drupal@drupal@*@.*(jQuery.extend\(Drupal.settings)
+CMS@drupal@drupal@*@(<meta name=[\"']Generator[\"'] content=[\"']Drupal).*>
+CMS@drupal@drupal@*@(<script\s+src=[\"']/core/misc/drupal).*>
+CMS@drupal@drupal@*@(<script\s+data-drupal-selector=[\"']drupal-).*>
+CMS@drupal@drupal@*@<script\s+src=[\"'](/core/misc/drupalSettingsLoader\.js\?v=([0-9]+[\.0-9]*[\.0-9]*)).*>
+CMS@drupal@drupal@*@<script\s+src=[\"'](/core/misc/drupal\.js\?v=([0-9]+[\.0-9]*[\.0-9]*)).*>
+CMS@drupal@drupal@*@<script\s+src=[\"'](/core/misc/drupal\.init\.js\?v=([0-9]+[\.0-9]*[\.0-9]*)).*>
+CMS@drupal@drupal@*@<script\s+src=[\"'](/themes/bootstrap/js/drupal\.bootstrap\.js).*>
+CMS@drupal@drupal@*@.*(X-Drupal-.*Cache: MISS).*
+CMS@drupal@drupal@*@.*(X-Drupal-Dynamic-.*Cache: MISS).*
+CMS@drupal@drupal@7.0@.*(X-Generator: Drupal 7).*
+CMS@drupal@drupal@8.0@.*(X-Generator: Drupal 8).*
+CMS@joomla@joomla\!@*@<meta\s+(content=[\"']Joomla).*>
+CMS@joomla@joomla\!@*@<script\s+(src=[\"']/templates/joomla/).*>
+CMS@joomla@joomla\!@*@Set-Cookie:.*(jfcookie=.*;)
+CMS@joomla@joomla\!@*@\s+(Joomla!\s+([0-9]+[\.0-9]*[\.0-9]*)).*
+CMS@typo3@typo3@*@.*(This website is powered by TYPO3).*>
+CMS@typo3@typo3@*@.*(href="fileadmin/templates/).*>
+CMS@typo3@typo3@*@(<meta\s+content=[\"']TYPO3).*>
+CMS@typo3@typo3@*@(Set-Cookie: .*typo.*=[a-z0-9]{32});
+CMS@typo3@typo3@*@.*(TYPO[0-9]).*
+CMS@site_publis@site_publis@*@(X-PUBLIS-Status:\s+REDIRECT\sTO\sPublisRedirectUri)
+CMS@oscommerce@oscommerce@*@(Set-Cookie: osCsid=.*);
+CMS@concrete5@concrete5@*@(concrete5 \- ([0-9]+[\.0-9]*[\.0-9]*))
+CMS@heartcore@heartcore@*@(HeartCore Web Content Management System v([0-9]+[\.0-9]*[\.0-9]*))
+CMS@kentico@kentico_cms@*@(Kentico\s+CMS\s+([0-9]+[\.0-9]*[\.0-9]*)).*
+Framework@apache@tomcat@*@.*(Tomcat/([0-9]+[\.0-9]*[\.0-9]*))
+Framework@apache@tomcat@*@.*(Apache Tomcat User Guide)
+Framework@apache@tomcat@*@.*(Tomcat\s([0-9])\sServlet/JSP container)
+Framework@apache@tomcat@*@.*(Tomcat\sServlet/JSP container)
+Framework@apache@tomcat@*@.*(JSP Samples)
+Framework@apache@tomcat@*@.*(Servlet Examples with Code)
+Framework@apache@tomcat@*@.*(KNOWN ISSUES IN THIS RELEASE)
+Framework@apache@tomcat@*@.*(Tomcat's administration web)
+Framework@apache@struts@*@.*(org\.apache\.struts\.taglib\.html\.TOKEN)
+Framework@adobe@coldfusion@*@Set-Cookie.*(CFID=.*;)
+Framework@adobe@coldfusion@*@Set-Cookie.*(CFTOKEN=.*;)
+Framework@adobe@coldfusion@*@.*(ColdFusion Administrator)
+Framework@adobe@coldfusion@*@.*(ColdFusion Documentation)
+Framework@adobe@coldfusion@*@.*(what_you_can_do_in_coldfusion_administrator)
+Framework@oracle@webLogic@*@.*(WebLogic/([0-9]+[\.0-9]*[\.0-9]*))
+Framework@jboss@jboss@*@X-Powered-By:.*(JBoss-([0-9]+[\.0-9]*[\.0-9]*))
+Framework@redhat@jboss_web_server@*@X-Powered-By:.*(JBossWeb-([0-9]+[\.0-9]*[\.0-9]*))
+Framework@oracle@application_server@*@.*(Oracle-Application-Server.*([0-9]+))
+Framework@ibm@lotus_domino@*@.*(IBM Lotus Notes ([0-9])).*
+Framework@apache@tapestry@*@.*(Apache Tapestry Framework).*
+Framework@cakefoundation@cakephp@*@Set-Cookie:.*(CAKEPHP=.*;)
+Framework@laravel@laravel@*@Set-Cookie:.*(laravel\_session=.*;)
+OS@redhat@enterprise_linux@*@Server:.*(\(Red Hat\))
+OS@redhat@enterprise_linux@*@Server:.*(\(Red Hat Enterprise linux\))
+OS@ubuntu@ubuntu_linux@*@Server:.*(\(Ubuntu\))
+OS@centos@centos@*@Server:.*(\(CentOS\))
+OS@unix@unix@*@Server:.*(\(unix\))
+OS@microsoft@windows@*@Server:.*(iis/1\.0)
+OS@microsoft@windows@*@Server:.*(iis/2\.0)
+OS@microsoft@windows@*@Server:.*(iis/3\.0)
+OS@microsoft@windows@*@Server:.*(iis/4\.0)
+OS@microsoft@windows@*@Server:.*(iis/5\.0)
+OS@microsoft@windows@*@Server:.*(iis/5\.1)
+OS@microsoft@windows@*@Server:.*(iis/6\.0)
+OS@microsoft@windows@*@Server:.*(iis/7\.0)
+OS@microsoft@windows@*@Server:.*(iis/7\.5)
+OS@microsoft@windows@*@Server:.*(iis/8\.0)
+OS@microsoft@windows@*@Server:.*(iis/8\.5)
+OS@microsoft@windows@*@Server:.*(\(win64\))
+OS@microsoft@windows@*@Server:.*(\(win32\))
+Web@apache@http_server@*@Server:.*(Apache/([0-9]+[\.0-9]*[\.0-9]*))
+Web@apache@http_server@*@Server:.*(Apache)[\s\r\n]
+Web@apache@http_server@*@.*(Apache/([0-9]+[\.0-9]*[\.0-9]*))
+Web@apache@http_server@*@.*(Test Page for Apache)
+Web@apache@http_server@*@.*(Apache HTTP Server[^D]*Documentation Project)
+Web@apache@http_server@*@.*(<title>Apache Status</title>)
+Web@apache@http_server@*@.*(Multi Language Custom Error Documents)
+Web@apache@http_server@*@.*(This file is generated from xml source)
+Web@apache@traffic_server@*@Server:.*(ATS/([0-9]+[\.0-9]*[\.0-9]*))
+Web@nginx@nginx@*@Server:.*(nginx/([0-9]+[\.0-9]*[\.0-9]*))
+Web@nginx@nginx@*@Server:.*(nginx)
+Web@nginx@nginx@*@.*(nginx/([0-9]+[\.0-9]*[\.0-9]*))
+Web@microsoft@internet_information_server@*@Server:.*(Microsoft-IIS/([0-9]+\.[0-9]+))
+Web@microsoft@internet_information_server@*@Server:.*(IIS/([0-9]+\.[0-9]+))
+Web@microsoft@internet_information_server@*@Server:.*(IIS)
+Web@microsoft@internet_information_server@*@.*(It works).*
+Web@microsoft@personal_web_server@*@Server:.*(PWS/([0-9]+[\.0-9]*[\.0-9]*))
+Web@ibm@http_server@*@Server:.*(IBM_HTTP_SERVER/([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+))
+Web@ibm@http_server@*@Server:.*(IBM_HTTP_SERVER)
+Web@ibm@http_server@*@.*(IBM_HTTP_SERVER/([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+))
+Web@ibm@websphere_application_server@*@Server:.*(WebSphere Application Server/([0-9]+[\.0-9]*[\.0-9]*))
+Web@f5@big-ip@*@Server:.*(bigip)
+Web@minihttpserver.net@web_forums_server@*@Server:.*(min_httpd)
+Web@webrick@webrick@*@Server:.*(WEBrick/([0-9]+[\.0-9]*[\.0-9]*))
+Web@pepyaka@pepyaka@*@Server:.*(Pepyaka/([0-9]+[\.0-9]*[\.0-9]*))
+Web@litespeedtech@litespeed_web_server@*@Server:.*(LiteSpeed)
+Web@google@frontend@*@Server:.*(Google\sFrontend)
+Web@sun@one_web_server@*@Server:.*(Sun\-ONE\-Web\-Server/([0-9]+[\.0-9]*[\.0-9]*))
+Web@cloudflare@cloudflare@*@Server:.*(cloudflare)
+Web@amazon@amazon_web_services_s3@*@Server:.*(AmazonS3)
+Language@php@php@*@Server:.*(PHP/([0-9]+[\.0-9]*[\.0-9]*))
+Language@php@php@*@X-Powered-By:.*(PHP/([0-9]+[\.0-9]*[\.0-9]*))
+Language@php@php@*@Set-Cookie:.*(PHPSESSID=.*;)
+Language@php@php@*@.*(PHP Credits)
+Language@php@php@*@.*(<title>phpinfo\(\))
+Language@php@php@*@.*(<title>phpinfo\(\)</title>)
+Language@microsoft@asp.net@*@.*(X-AspNet-Version:\s*([0-9]+[\.0-9]*[\.0-9]*))
+Language@microsoft@mvc@*@.*(X-AspNetMvc-Version:\s*([0-9]+[\.0-9]*[\.0-9]*))
+Language@microsoft@asp.net@*@Set-Cookie:.*(ASP\.NET_SessionId=.*;)
+Language@microsoft@asp.net@*@.*(X-Powered-By:\s+ASP\.NET)
+Language@ruby-lang@ruby@*@(Ruby/([0-9]+[\.0-9]*[\.0-9]*))
+Tool@phpmyadmin@phpmyadmin@*@.*(phpMyAdmin ([0-9]+[\.0-9]*[\.0-9]*))
+Tool@phpmyadmin@phpmyadmin@*@.*<title>(phpMyAdmin).*
+Tool@phpmyadmin@phpmyadmin@*@.*<title>(phpMyAdmin setup).*
+Tool@phpmyadmin@phpmyadmin@*@.*<title>(phpMyAdmin.*[0-9])</title>.*
+Tool@phpmyadmin@phpmyadmin@*@.*(phpmyadmin.svn.sourceforge.net/svnroot/phpmyadmin/trunk/phpMyAdmin/ChangeLog).*
+Tool@phpmyadmin@phpmyadmin@*@.*(phpMyAdmin - ChangeLog).*
+Tool@squirrelmail@squirrelmail@*@.*(SquirrelMail version ([0-9]+))
+Tool@openssl@openssl@*@Server:.*(OpenSSL/([0-9]+\.[0-9]+\.[0-9][a-z]\-Beta\d{1,3}))
+Tool@openssl@openssl@*@Server:.*(OpenSSL/([0-9]+\.[0-9]+\.[0-9]\-Beta\d{1,3}))
+Tool@openssl@openssl@*@Server:.*(OpenSSL/([0-9]+\.[0-9]+\.[0-9][a-z]))
+Tool@openssl@openssl@*@Server:.*(OpenSSL/([0-9]+\.[0-9]+\.[0-9]))
+Tool@openssl@openssl@*@Server:.*(OpenSSL/([0-9]+\.[0-9]+\.[0-9][a-z]\-fips))
+Tool@openssl@openssl@*@Server:.*(OpenSSL/([0-9]+\.[0-9]+\.[0-9]\-fips))
+Tool@mod_ssl@mod_ssl@*@Server:.*(mod_ssl/([0-9]+\.[0-9]+\.[0-9]+))
+Tool@adobe@dreamweaver@*@.*(dwsync)
+Tool@gnu@mailman@*@.*Delivered by (Mailman.*[0-9])</td>.*
+Tool@awstats@awstats@*@.*(AWStats for domain).*
+Tool@microsoft@outlook_web_access@*@(X-OWA-Version:\s*([0-9]+[\.0-9]*[\.0-9]*[\.0-9]*))
+Tool@microsoft@outlook_web_access@*@Set-Cookie:.*(OutlookSession=.*;)
+WAF@bitforest@scutum@*@Server:.*(Scutum)
