@@ -1,0 +1,36 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Long Running Task</title>
+    <style>
+        #output-container {
+            max-height: 400px; /* 设置最大高度 */
+            overflow-y: auto; /* 添加垂直滚动条 */
+            white-space: pre-line; /* 保留换行符 */
+        }
+    </style>
+</head>
+<body>
+    <h1>Long Running Task</h1>
+    <button onclick="runTask()">Run Task</button>
+    <div id="output-container">
+        <pre id="output"></pre>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function runTask() {
+            $.get('/api/run_task', function(taskId) {
+                var intervalId = setInterval(function() {
+                    $.get('/api/task_status/' + taskId, function(data) {
+                        $('#output').html(data);
+                        $('#output-container').scrollTop($('#output-container')[0].scrollHeight); // 滚动到底部
+                    });
+                }, 1000);
+            });
+        }
+    </script>
+</body>
+</html>
