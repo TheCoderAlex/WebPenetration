@@ -1,14 +1,21 @@
+amqp==5.2.0
+ansi2html==1.9.1
 attrs==23.2.0
 Automat==22.10.0
 beautifulsoup4==4.12.3
+billiard==4.2.0
 blinker==1.8.2
 cachetools==5.3.3
 cchardet==2.1.7
+celery==5.4.0
 censys==0.0.8
 certifi==2024.2.2
 cffi==1.16.0
 charset-normalizer==3.3.2
 click==8.1.7
+click-didyoumean==0.3.1
+click-plugins==1.1.1
+click-repl==0.3.0
 constantly==23.10.4
 contourpy==1.2.1
 cryptography==42.0.7
@@ -35,6 +42,7 @@ itsdangerous==2.2.0
 Jinja2==3.1.4
 jmespath==1.0.1
 kiwisolver==1.4.5
+kombu==5.3.7
 lxml==5.2.2
 MarkupSafe==2.1.5
 matplotlib==3.8.4
@@ -48,6 +56,7 @@ pandas==2.2.2
 parsel==1.9.1
 pillow==10.3.0
 ping3==4.0.8
+prompt-toolkit==3.0.43
 Protego==0.3.1
 proto-plus==1.23.0
 protobuf==4.25.3
@@ -61,6 +70,7 @@ PySocks==1.7.1
 python-dateutil==2.9.0.post0
 pytz==2024.1
 queuelib==1.7.0
+redis==5.0.4
 requests==2.31.0
 requests-file==2.0.0
 rsa==4.9
@@ -80,7 +90,9 @@ typing_extensions==4.11.0
 tzdata==2024.1
 uritemplate==4.1.1
 urllib3==2.2.1
+vine==5.1.0
 w3lib==2.1.2
+wcwidth==0.2.13
 Werkzeug==3.0.3
 wheel==0.43.0
 wsproto==1.2.0
