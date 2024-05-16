@@ -1,2 +1,1 @@
-http 192.168.220.132 80 /MCIR/splash/index.php
-http 192.168.220.132 80 /bodgeit/
+http 192.168.0.13 80 /

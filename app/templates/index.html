@@ -1,10 +1,80 @@
-<!-- templates/index.html -->
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hack the CIA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web GyoiThon Project</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #output-container {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #000;
+            border: 1px solid #333;
+            border-radius: 5px;
+            overflow-y: auto;
+            width: calc(100vw - 40px); /* Make the output container almost as wide as the screen */
+            max-width: 1000px; /* Limit maximum width for better readability */
+            margin-left: auto; /* Center the output container */
+            margin-right: auto;
+        }
+
+        pre {
+            white-space: pre-wrap;
+            color: #00ff00; /* Change font color to green */
+            font-family: "Courier New", Courier, monospace; /* Use monospace font */
+            margin: 0; /* Remove default margins */
+        }
+
         .ansi30 { color: #000000; }
         .ansi31 { color: #FF0000; }
         .ansi32 { color: #00FF00; }
@@ -27,35 +97,105 @@
             overflow-y: auto; /* 添加垂直滚动条 */
             white-space: pre-line; /* 保留换行符 */
         }
+
+        .form-group {
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
     <h1>Web GyoiThon Project</h1>
-    <button onclick="runTask()">Run Penetration</button>
+
+    <div id="output-container">
+            <pre id="output"></pre>
+    </div>
+
+    <div class="container">
+        <form id="parameter-form">
+        <div class="form-group">
+            <label for="s">Examine cloud service:</label>
+            <input type="checkbox" id="s" name="s">
+        </div>
+        <div class="form-group">
+            <label for="m">Analyze HTTP response for identify product/version using Machine Learning:</label>
+            <input type="checkbox" id="m" name="m">
+        </div>
+        <div class="form-group">
+            <label for="g">Google Custom Search for identify product/version:</label>
+            <input type="checkbox" id="g" name="g">
+        </div>
+        <div class="form-group">
+            <label for="e">Explore default path of product:</label>
+            <input type="checkbox" id="e" name="e">
+        </div>
+        <div class="form-group">
+            <label for="c">Discover open ports and wrong ssl server certification using Censys:</label>
+            <input type="checkbox" id="c" name="c">
+        </div>
+        <div class="form-group">
+            <label for="p">Execute exploit module using Metasploit:</label>
+            <input type="checkbox" id="p" name="p">
+        </div>
+        <div class="form-group">
+            <label for="l">Analyze log based HTTP response for identify product/version:</label>
+            <input type="checkbox" id="l" name="l">
+        </div>
+        <div class="form-group">
+            <label for="i">Explore relevant FQDN with the target FQDN:</label>
+            <input type="checkbox" id="i" name="i">
+        </div>
+        <div class="form-group">
+            <label for="no-update-vulndb">--no-update-vulndb:</label>
+            <input type="checkbox" id="no-update-vulndb" name="no-update-vulndb">
+        </div>
+        <button type="submit">Run Penetration</button>
+    </form>
     <button onclick="getTotalTasks()">Get Total Tasks</button>
     <button onclick="getAllTaskIds()">Get All Task IDs</button>
     <button onclick="terminateTask()">Terminate Task</button>
-    <div id="output-container">
-        <pre id="output"></pre>
-    </div>
+    <button onclick="window.location.href = 'config';">Go to Config</button>
+    <button onclick="window.location.href = 'edit_hosts';">Edit Hosts</button>
 
+
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         let intervalId;
 
-        function runTask() {
-            $.post('/api/start_task', function(taskId) {
-                intervalId = setInterval(function() {
-                    $.get('/api/task_status/' + taskId, function(data) {
-                        $('#output').html(data);
-                        if (typeof data === 'string' && (data === 'Task is not running or does not exist.' || data.startsWith('Task completed with return code'))) {
-                            clearInterval(intervalId);
-                        }
-                        $('#output-container').scrollTop($('#output-container')[0].scrollHeight); // 滚动到底部
-                    });
-                }, 1000);
+        $('#parameter-form').submit(function(event) {
+            event.preventDefault();
+            let parameters = {};
+            $('#parameter-form input[type="checkbox"]').each(function() {
+                parameters[$(this).attr('name')] = $(this).is(':checked') ? 'true' : 'false';
+            });
+            runTask(parameters);
+        });
+
+        function runTask(parameters) {
+            $.ajax({
+                url: '/api/start_task',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(parameters),
+                dataType: 'json',
+                success: function(response) {
+                    const taskId = response.task_id;
+                    intervalId = setInterval(function() {
+                        $.get('/api/task_status/' + taskId, function(data) {
+                            $('#output').html(data);
+                            if (typeof data === 'string' && (data === 'Task is not running or does not exist.' || data.startsWith('Task completed with return code'))) {
+                                clearInterval(intervalId);
+                            }
+                            $('#output-container').scrollTop($('#output-container')[0].scrollHeight); // 滚动到底部
+                        });
+                    }, 1000);
+                },
+                error: function(xhr, status, error) {
+                    alert('Failed to start task: ' + error);
+                }
             });
         }
+
 
         function getTotalTasks() {
             $.get('/api/total_tasks', function(data) {

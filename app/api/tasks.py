@@ -8,16 +8,29 @@ task_ids = []
 non_progress_count = {}
 STOP_THRESHOLD = 10
 
+# 输出缓存的最大行数
+MAX_OUTPUT_LINES = 10
+
 
 @celery.task(bind=True)
-def run_gyoithon(self):
+def run_gyoithon(self, parameters):
     output = []
-    process = subprocess.Popen(['python', "-u", "bin/GyoiThon/gyoithon.py"], stdout=subprocess.PIPE,
+    command = ['python', "-u", "bin/GyoiThon/gyoithon.py"]
+    for key, value in parameters.items():
+        if value == 'true':
+            if key == 'no-update-vulndb':
+                command.append('--no-update-vulndb')
+            else:
+                command.append('-' + key)
+    print(command)
+    process = subprocess.Popen(command, stdout=subprocess.PIPE,
                                stderr=subprocess.STDOUT,
                                bufsize=1,
                                universal_newlines=True)
     for line in process.stdout:
         output.append(convert_ansi_to_html(line))
+        if len(output) > MAX_OUTPUT_LINES:
+            del output[:-MAX_OUTPUT_LINES]
         self.update_state(state='PROGRESS', meta={'output': output})
     process.wait()
     return {'output': output, 'code': process.returncode}
@@ -46,11 +59,12 @@ def terminate_task():
         return jsonify({'task_id': task_id, 'status': 'Task ID not found'})
 
 
-@api.route('/start_task/', methods=['POST'])
+@api.route('/start_task', methods=['POST'])
 def run_task():
-    task = run_gyoithon.apply_async()
+    parameters = request.json
+    task = run_gyoithon.apply_async(args=[parameters])
     task_ids.append(task.id)
-    return task.id
+    return jsonify({'task_id': task.id})
 
 
 @api.route('/task_status/<task_id>/', methods=['GET'])
@@ -65,7 +79,7 @@ def task_status(task_id):
             del non_progress_count[task_id]
         celery.control.revoke(task_id, terminate=True)
         task_ids.remove(task_id)
-        return 'Task completed with return code: {}'.format(task.info['code'])
+        return 'Task completed with return code: {}\n{}'.format(task.info['code'], task.info['output'])
     else:
         if task_id in non_progress_count:
             non_progress_count[task_id] += 1
@@ -76,4 +90,3 @@ def task_status(task_id):
         else:
             non_progress_count[task_id] = 1
         return 'Task is not running or does not exist.'
-

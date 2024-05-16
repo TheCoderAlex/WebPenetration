@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosts Editor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h2 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        #hostsInput {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: none;
+            font-size: 14px;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h2>Hosts Editor</h2>
+        </div>
+        <div>
+            <textarea id="hostsInput" rows="10" placeholder="Enter hosts content here"></textarea>
+        </div>
+        <div>
+            <button id="saveBtn">Save</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('saveBtn').addEventListener('click', function() {
+            var hostsContent = document.getElementById('hostsInput').value;
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', '/api/write_hosts', true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        console.log(JSON.parse(xhr.responseText).message);
+                        alert('Hosts file saved successfully!');
+                    } else {
+                        console.error('Error saving hosts:', xhr.status);
+                        alert('Failed to save hosts file. Please try again later.');
+                    }
+                }
+            };
+            xhr.send(JSON.stringify({ hosts_content: hostsContent.split('\n') }));
+        });
+    </script>
+</body>
+</html>
