@@ -104,3 +104,9 @@ Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiT
 www.baidu.com,153.3.238.102,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
 Url : 0.0 %","Log : -
 Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522134759461.log,2024/05/22 13:47:59
+www.baidu.com,153.3.238.102,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522134759461.log,2024/05/22 13:47:59
+www.baidu.com,153.3.238.102,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""warning""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522134759461.log,2024/05/22 13:47:59
