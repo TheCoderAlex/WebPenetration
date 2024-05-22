@@ -1,0 +1,187 @@
+fqdn,ip_addr,port,cloud_type,method,origin_url,url,vendor_name,prod_name,prod_version,prod_trigger,prod_type,prod_vuln,origin_login,origin_login_trigger,wrong_comment,error_msg,server_header,log,date
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com/favicon.ico,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133059510.log,2024/05/22 13:30:59
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com/favicon.ico,apache,http_server,*,Apache,Web,"CVE-2001-0766
+CVE-2019-0190
+CVE-2021-32785
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133059510.log,2024/05/22 13:30:59
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com/favicon.ico,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133059510.log,2024/05/22 13:30:59
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""error{""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""error,""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""unknown-""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""Error""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""Error(""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""notice""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""error""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""error,""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""notice""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""warning""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""warning""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""warning""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,36.155.132.76,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,36.155.132.76,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,36.155.132.76,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,36.155.132.3,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,36.155.132.3,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,"""error""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,"""error=""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""error:""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""error""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.188,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,"""error""""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""error_""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
+www.baidu.com,180.101.50.242,443,Unknown,Crawling,https://www.baidu.com/,https://www.baidu.com:443/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,"""exception-""",Server: BWS/1.1,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/www.baidu.com_443/https_www.baidu.com_443_20240522133127983.log,2024/05/22 13:31:27
