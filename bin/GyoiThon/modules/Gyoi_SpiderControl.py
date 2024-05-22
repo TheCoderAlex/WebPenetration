@@ -57,7 +57,7 @@ class SpiderControl:
         target_dir_name = target_fqdn + '_' + str(target_port)
         base_log_path = os.path.join('logs', target_dir_name)
         if os.path.exists(base_log_path) is False:
-            os.mkdir(base_log_path)
+            os.makedirs(base_log_path)
         gyoithon_log_path = os.path.join(base_log_path, gyoithon_log)
 
         # Default log of Scrapy (Required: Relative path).
