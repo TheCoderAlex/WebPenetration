@@ -18,7 +18,7 @@ def run_gyoithon(self, parameters):
     command = ['python', "-u", "bin/GyoiThon/gyoithon.py"]
     for key, value in parameters.items():
         if value == 'true':
-            if key == 'no-update-vulndb':
+            if key == 'no_update_vulndb':
                 command.append('--no-update-vulndb')
             else:
                 command.append('-' + key)
