@@ -4,7 +4,7 @@
       <overview-title title="运行进程" subtitle="基本信息" />
     </div>
     <div>
-      <a-table :columns="columns" :dataSource="dataSource" :pagination="false">
+      <a-table :columns="columns" :dataSource="dataSource.value" :pagination="false">
         <div class="" v-for="items in dataSource" :key="items">
           <h3>{{ items }}</h3>
           <div class="flex items-center">
@@ -33,15 +33,15 @@ const columns = [
   { title: '进程ID', dataIndex: 'pID' },
   { title: '相关操作', dataIndex: 'progress' },
 ];
-const dataSource = ref<string[]>([]);
+const dataSource = ref([]);
 
 const getAllTaskInfo = async () => {
   try {
     const response = await axios.get('/all_task_ids');
-    dataSource.value = response.data['task_ids'];
+    dataSource.value = response.data;
     console.log('查询成功:', response.data['task_ids']);
   } catch (error) {
-    console.error('Failed to start task:', error);
+    console.error('Failed to get ids', error);
   }
 };
 
