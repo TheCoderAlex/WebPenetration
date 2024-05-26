@@ -1,13 +1,13 @@
 from flask import Flask, request, jsonify, redirect, url_for
 import configparser
-
-app = Flask(__name__)
+from app.api import api
 
 # 读取配置文件
 config = configparser.ConfigParser()
 config.read('bin/GyoiThon/config.ini')
 
-@app.route('/config', methods=['GET'])
+
+@api.route('/config', methods=['GET'])
 def get_config():
     config_data = {}
     for section in config.sections():
@@ -15,7 +15,8 @@ def get_config():
             config_data[f"{section}_{key}"] = value
     return jsonify(config_data)
 
-@app.route('/update', methods=['POST'])
+
+@api.route('/update', methods=['POST'])
 def update_config():
     if request.method == 'POST':
         try:

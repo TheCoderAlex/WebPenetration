@@ -121,7 +121,7 @@ export default {
         try {
           const response = await axios.get(`/task_status/${taskId}/`);
           terminalInfo.value += response.data;
-          console.log("polling....." + response.data);
+          // console.log("polling....." + response.data);
           if (response.data.includes('task finished') || response.data.includes('task terminated')) {
             clearInterval(this.pollingInterval);
           }

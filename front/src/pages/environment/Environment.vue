@@ -56,12 +56,12 @@ const onCheck = async () => {
   }
 };
 const formItemLayout = {
-  labelCol: { span: 4 },
-  wrapperCol: { span: 8 },
+  labelCol: { span: 8 },
+  wrapperCol: { span: 10 },
 };
 const formTailLayout = {
-  labelCol: { span: 4 },
-  wrapperCol: { span: 8, offset: 4 },
+  labelCol: { span: 8 },
+  wrapperCol: { span: 10, offset: 4 },
 };
 </script>
 

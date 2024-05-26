@@ -3,6 +3,7 @@ from flask import Flask
 from config import config
 from flask_cors import CORS
 
+
 def register_blueprint(app):
     from app.api import api
     from app.views import views
