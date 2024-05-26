@@ -2,30 +2,25 @@
   <div class="projects card ">
     <div class="flex items-baseline justify-between w-full">
       <overview-title title="运行进程" subtitle="基本信息" />
-      <div class="extra">
-
-      </div>
     </div>
-    <a-table :columns="columns" :dataSource="dataSource" :pagination="false">
-      <div class="" v-for="(items) in dataSource" :key="items">
-        <template >
+    <div>
+      <a-table :columns="columns" :dataSource="dataSource" :pagination="false">
+        <div class="" v-for="items in dataSource" :key="items">
+          <h3>{{ items }}</h3>
           <div class="flex items-center">
             <span class="ml-sm">{{ items }}</span>
           </div>
-        </template>
-        <template>
           <a-radio-group>
             <a-radio-button>终止</a-radio-button>
           </a-radio-group>
+        </div>
+      </a-table>
+      <a-button size="large" class="add-btn" type="dashed">
+        <template #icon>
         </template>
-      </div>
-    </a-table>
-    <a-button size="large" class="add-btn" type="dashed">
-      <template #icon>
-        <upload-outlinzed />
-      </template>
-      添加新项目
-    </a-button>
+        添加新项目
+      </a-button>
+    </div>
   </div>
 </template>
 <script lang="ts" setup>
@@ -38,25 +33,13 @@ const columns = [
   { title: '进程ID', dataIndex: 'pID' },
   { title: '相关操作', dataIndex: 'progress' },
 ];
-
-let dataSource = [];
-function mapStatus(status: string, progress: number) {
-  switch (status) {
-    case 'normal':
-      return progress < 1 ? 'active' : 'success';
-    case 'canceled':
-      return 'exception';
-    default:
-      return 'normal';
-  }
-}
+const dataSource = ref<string[]>([]);
 
 const getAllTaskInfo = async () => {
   try {
     const response = await axios.get('/all_task_ids');
-    dataSource = response.data;
-    console.log(dataSource);
-    console.log('查询成功:', response.data);
+    dataSource.value = response.data['task_ids'];
+    console.log('查询成功:', response.data['task_ids']);
   } catch (error) {
     console.error('Failed to start task:', error);
   }
