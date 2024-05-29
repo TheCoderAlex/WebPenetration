@@ -8,7 +8,8 @@ def register_blueprint(app):
     from app.api import api
     from app.views import views
     app.register_blueprint(api, url_prefix='/api')
-    app.register_blueprint(views)
+    # 前端使用Vue.js，所以不需要使用Flask的模板引擎
+    # app.register_blueprint(views)
 
 
 app = Flask(__name__)
