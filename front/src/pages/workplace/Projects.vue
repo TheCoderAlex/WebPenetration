@@ -4,22 +4,29 @@
       <overview-title title="运行进程" subtitle="基本信息" />
     </div>
     <div>
-      <a-table :columns="columns" :dataSource="dataSource.value" :pagination="false">
+      <a-table :columns="columns" :dataSource="dataSource" :pagination="false">
         <template #bodyCell="{ text, record, column }">
           <div v-if="column.dataIndex === 'progress'">
             <div class="flex items-center">
-              <span class="ml-sm">{{ record[column.dataIndex] }}</span>
-              <a-radio-group>
-                <a-radio-button>终止</a-radio-button>
-              </a-radio-group>
+              <span class="ml-sm p-2">{{ record[column.dataIndex] }}</span>
+                <a-radio-group>
+                  <a-radio-button @click="terminateTask(record.pID)">终止</a-radio-button>
+                </a-radio-group>
             </div>
           </div>
+
+          <div v-else-if="column.dataIndex === 'result'">
+            <div class="flex items-center">
+              123
+            </div>
+          </div>
+
           <div v-else>
             {{ text }}
           </div>
         </template>
       </a-table>
-      <a-button size="large" class="add-btn" type="dashed">
+      <a-button size="large" class="add-btn" type="dashed" @click="goToWorkplace">
         <template #icon>
         </template>
         添加新项目
@@ -27,17 +34,19 @@
     </div>
   </div>
 </template>
-
 <script lang="ts" setup>
 import OverviewTitle from '@/components/statistic/OverviewTitle.vue';
-import { ref, onMounted } from 'vue';
-import axios from 'axios';
+
+import {computed, onMounted, reactive, ref} from "vue";
+import axios from "axios";
+import router from "@/router";
+
 
 const columns = [
   { title: '进程ID', dataIndex: 'pID' },
+  { title: '运行结果', dataIndex: 'result'},
   { title: '相关操作', dataIndex: 'progress' },
 ];
-
 const dataSource = ref([]);
 
 const getAllTaskInfo = async () => {
@@ -45,13 +54,25 @@ const getAllTaskInfo = async () => {
     const response = await axios.get('/all_task_ids');
     dataSource.value = response.data.task_ids.map((id: string) => ({
       pID: id,
-      progress: '运行中'  // 这里可以根据需要修改
+      progress: '运行中'
     }));
-    console.log('查询成功:', dataSource.value);
+    console.log('查询成功:', response.data['task_ids']);
   } catch (error) {
     console.error('Failed to get ids', error);
   }
 };
+const terminateTask = async (taskId: string) => {
+  try{
+    const response = await axios.post('/terminate_task', {task_id: taskId});
+    console.log(`终止任务成功： ${response.data}`);
+    await getAllTaskInfo();
+  }catch (error){
+    console.error("Failed to terminate task:", error);
+  }
+}
+const goToWorkplace = () =>{
+  router.push('/workplace');
+}
 
 onMounted(() => {
   getAllTaskInfo();
