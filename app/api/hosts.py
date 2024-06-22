@@ -1,6 +1,8 @@
 from app.api import api
 from flask import jsonify, request
 
+HOSTS_FILE_PATH = 'bin/GyoiThon/host.txt'
+
 
 @api.route('/write_hosts', methods=['POST'])
 def write_hosts():
@@ -21,3 +23,13 @@ def write_hosts():
             f.write(line + '\n')
 
     return jsonify({'message': 'Hosts file has been updated successfully!'})
+
+
+@api.route('/get_hosts', methods=['GET'])
+def get_hosts():
+    try:
+        with open('bin/GyoiThon/host.txt', 'r') as file:
+            data = file.read()
+        return data, 200
+    except Exception as e:
+        return jsonify({"error": "problem!!!!!!"})

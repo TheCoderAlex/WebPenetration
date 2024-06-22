@@ -167,8 +167,8 @@ export default {
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   margin: 20px auto;
-  max-width: calc(78%);
-  height: 70vh;
+  width: calc(78%);
+  height: 115vh;
   flex-direction: column;
 }
 
@@ -240,7 +240,6 @@ export default {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: calc(18%);
-  height: 70vh;
   @apply justify-center items-center mt-md -mx-2;
 }
 </style>

@@ -3,16 +3,16 @@ from ping3 import ping, verbose_ping
 from app.api import api
 
 
-@api.route('/ping/', methods=['GET'])
+@api.route('/ping', methods=['POST'])
 def ping_ip():
     ip = request.args.get('ip')
     if ip is None:
-        return jsonify({'code': '2', 'result': 'No IP address provided'}), 400
+        return jsonify({'status': False, 'result': 'No IP address provided'})
     try:
         delay = ping(ip)
         if delay is None:
-            return jsonify({'code': '1', 'result': 'Ping failed'}), 400
+            return jsonify({'code': False, 'result': 'Ping failed'})
         else:
-            return jsonify({'code': '0', 'result': f'Response in {delay} seconds'}), 200
+            return jsonify({'code': True, 'result': f'Response in {delay} seconds'})
     except Exception as e:
-        return jsonify({'code': '1', 'result': 'An error occurred', 'error': str(e)}), 400
+        return jsonify({'code': False, 'result': 'An error occurred', 'error': str(e)})

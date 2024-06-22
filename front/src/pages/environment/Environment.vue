@@ -1,12 +1,13 @@
 <template>
-<div class="workplace grid grid-rows-none gap-4 mt-xxs">
-    <div class="card grid grid-cols-12 gap-6">
+  <div class="workplace grid grid-rows-none gap-4 mt-xxs">
+    <div class="button-container grid grid-cols-2 gap-6"> <!-- 使用 grid 布局和 gap 设置间距 -->
       <mini-statistic-card
-        class="card col-span-12 mdx:col-span-6 xlx:col-span-3"
         v-for="(item, i) in statisticList"
         :key="i"
         :title="item.title"
         :value="item.value"
+        :url="item.url"
+        :class="['button', item.value ? 'bg-green-500' : 'bg-red-500']"
       >
         <template #icon>
           <component
@@ -16,73 +17,41 @@
         </template>
       </mini-statistic-card>
     </div>
-</div>
+  </div>
 </template>
+
 <script lang="ts" setup>
-import { reactive, ref, watch } from 'vue';
-import type { FormInstance } from 'ant-design-vue';
+import { reactive } from 'vue';
 import MiniStatisticCard from "@/components/statistic/MiniStatisticCard.vue";
 
-interface FormState {
-  username: string;
-  nickname: string;
-  checkNick: boolean;
-}
-const formRef = ref<FormInstance>();
-const formState = reactive<FormState>({
-  username: '',
-  nickname: '',
-  checkNick: false,
-});
-
-  const statisticList = reactive([
-    {
-      title: '正在运行',
-      value: '100',
-      icon: 'dollar-circle-filled',
-      iconClass: 'text-blue-100',
-    },
-    {
-      title: '正在运行',
-      value: '138',
-      icon: 'usergroup-add-outlined',
-      iconClass: 'text-purple-100',
-    },
-    {
-      title: '正在运行',
-      value: '5000',
-      icon: 'heart-filled',
-      iconClass: 'text-primary-100',
-    },
-    {
-      title: '正在运行',
-      value: '3200',
-      icon: 'shopping-filled',
-      iconClass: 'text-green-100',
-    },
-  ]);
-watch(
-  () => formState.checkNick,
-  () => {
-    formRef.value.validateFields(['nickname']);
+const statisticList = reactive([
+  {
+    value: 'Ping',
+    title: 'Checking...',
+    url: '/ping',
+    icon: 'dollar-circle-filled',
+    iconClass: 'text-blue-100',
   },
-  { flush: 'post' },
-);
-const onCheck = async () => {
-  try {
-    const values = await formRef.value.validateFields();
-    console.log('Success:', values);
-  } catch (errorInfo) {
-    console.log('Failed:', errorInfo);
+  {
+    value: 'python packages',
+    title: 'Checking...',
+    url: '/check_python_packages',
+    icon: 'smile-add-outlined',
+    iconClass: 'text-purple-100',
+  },
+  {
+    value: 'node version',
+    title: 'Checking...',
+    url: '/check_node_version',
+    icon: 'success-add-outlined',
+    iconClass: 'text-purple-100',
+  },
+  {
+    value: 'network connectivity',
+    title: 'Checking...',
+    url: '/check_network_connectivity',
+    icon: 'usergroup-add-outlined',
+    iconClass: 'text-purple-100',
   }
-};
-const formItemLayout = {
-  labelCol: { span: 8 },
-  wrapperCol: { span: 10 },
-};
-const formTailLayout = {
-  labelCol: { span: 8 },
-  wrapperCol: { span: 10, offset: 4 },
-};
+]);
 </script>
-
