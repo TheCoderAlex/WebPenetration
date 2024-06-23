@@ -19,7 +19,8 @@ def write_hosts():
 
     with open('bin/GyoiThon/host.txt', 'w') as f:
         f.truncate(0)
-        for line in data['hosts_content']:
+        data_list = data['hosts_content'].split('\n')
+        for line in data_list:
             f.write(line + '\n')
 
     return jsonify({'message': 'Hosts file has been updated successfully!'})
