@@ -27,7 +27,7 @@ def check_python_packages():
     for requirement in requirements:
         if '==' in requirement:
             pkg, version = requirement.strip().split('==')
-            if pkg not in installed_packages or installed_packages[pkg] != version:
+            if pkg not in installed_packages or installed_packages[pkg] < version:
                 missing_packages.append(requirement.strip())
         else:
             pkg = requirement.strip()
