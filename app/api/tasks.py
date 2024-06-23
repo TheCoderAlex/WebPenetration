@@ -5,6 +5,9 @@ from app.api import api
 from app.utils.html_color import convert_ansi_to_html
 
 task_ids = []
+succeeded_task_ids = []
+failed_task_ids = []
+terminated_task_ids = []
 non_progress_count = {}
 STOP_THRESHOLD = 10
 
@@ -47,6 +50,21 @@ def all_task_ids():
     return jsonify({'task_ids': task_ids})
 
 
+@api.route('/success_task_ids', methods=['GET'])
+def success_task():
+    return jsonify({'task_ids': succeeded_task_ids})
+
+
+@api.route('/failed_task_ids', methods=['GET'])
+def failed_task():
+    return jsonify({'task_ids': failed_task_ids})
+
+
+@api.route('/terminated_task_ids', methods=['GET'])
+def terminated_task():
+    return jsonify({'task_ids': terminated_task_ids})
+
+
 @api.route('/terminate_task', methods=['POST'])
 def terminate_task():
     data = request.json
@@ -54,6 +72,7 @@ def terminate_task():
     if task_id in task_ids:
         celery.control.revoke(task_id, terminate=True)
         task_ids.remove(task_id)
+        terminated_task_ids.append(task_id)
         return jsonify({'task_id': task_id, 'status': 'Task terminated'})
     else:
         return jsonify({'task_id': task_id, 'status': 'Task ID not found'})
@@ -78,15 +97,20 @@ def task_status(task_id):
         if task_id in non_progress_count:
             del non_progress_count[task_id]
         celery.control.revoke(task_id, terminate=True)
-        task_ids.remove(task_id)
+        if task_id in task_ids:
+            task_ids.remove(task_id)
+            succeeded_task_ids.append(task_id)
         return 'Task completed with return code: {}\n{}'.format(task.info['code'], task.info['output'])
     else:
-        if task_id in non_progress_count:
-            non_progress_count[task_id] += 1
-            if non_progress_count[task_id] >= STOP_THRESHOLD:
-                celery.control.revoke(task_id, terminate=True)
-                task_ids.remove(task_id)
-                return 'Task terminated due to inactivity.'
+        if task_id in task_ids:
+            if task_id in non_progress_count:
+                non_progress_count[task_id] += 1
+                if non_progress_count[task_id] >= STOP_THRESHOLD:
+                    celery.control.revoke(task_id, terminate=True)
+                    task_ids.remove(task_id)
+                    failed_task_ids.append(task_id)
+                    return 'Task terminated due to inactivity.'
+            else:
+                non_progress_count[task_id] = 1
         else:
-            non_progress_count[task_id] = 1
-        return 'Task is not running or does not exist.'
+            return 'Task is not running or does not exist.'
