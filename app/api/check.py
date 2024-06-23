@@ -19,7 +19,7 @@ def check_python_packages():
     with open('requirements.txt', 'r') as f:
         requirements = f.readlines()
 
-    installed = subprocess.run(['pip', 'freeze'], capture_output=True, text=True).stdout.splitlines()
+    installed = subprocess.run(['pip', 'freeze', '--all'], capture_output=True, text=True).stdout.splitlines()
 
     installed_packages = {pkg.split('==')[0]: pkg.split('==')[1] for pkg in installed}
     missing_packages = []
