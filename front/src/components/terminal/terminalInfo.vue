@@ -8,8 +8,9 @@
       </div>
       <div class="title">Terminal</div>
     </div>
-    <div class="terminal-body flex-auto break-all">
+    <div class="terminal-body flex-auto break-all" ref="terminalBody">
       <div class="pre font-bold" v-html="formattedTerminalInfo"></div>
+      <div ref="scrollAnchor"></div>
     </div>
   </div>
 
@@ -53,7 +54,7 @@
 </template>
 
 <script>
-import { ref, onMounted, computed } from 'vue';
+import { ref, computed, nextTick } from 'vue';
 import axios from 'axios';
 import OverviewTitle from '@/components/statistic/OverviewTitle.vue';
 
@@ -96,7 +97,7 @@ export default {
       try {
         const response = await axios.post('/terminateTask', { task_id: this.terminateTaskId});
         alert(response.data.status);
-      }catch (error){
+      } catch (error) {
         console.error('Failed to terminate task:', error);
       }
     }
@@ -106,7 +107,7 @@ export default {
         const response = await axios.get(`/task_status/${this.statusTaskId}`);
         this.taskStatus = response.data;
         alert(response.data.status);
-      }catch (error){
+      } catch (error) {
         console.error('Failed to get task status:', error);
       }
     }
@@ -121,11 +122,17 @@ export default {
         try {
           const response = await axios.get(`/task_status/${taskId}/`);
           terminalInfo.value += response.data;
-          // console.log("polling....." + response.data);
+          await nextTick();
+          // 自动滚动到底部
+          const scrollAnchor = this.$refs.scrollAnchor;
+          if (scrollAnchor) {
+            scrollAnchor.scrollIntoView({ behavior: 'smooth' });
+          }
+
           if (response.data.includes('Task completed') || response.data.includes('Task terminated') || response.data.includes('Task is not running')) {
             clearInterval(this.pollingInterval);
           }
-        }catch (error){
+        } catch (error) {
           console.log('Error polling task status: ', error);
           clearInterval(this.pollingInterval);
         }
@@ -134,9 +141,6 @@ export default {
 
     const formattedTerminalInfo = computed(() => {
       return terminalInfo.value;
-        // .split('\n')
-        // .map((line, index) => `<span class="line-number">${index + 1}</span> ${line}`)
-        // .join('\n');
     });
 
     return {
@@ -153,7 +157,6 @@ export default {
       startTask,
       options
     };
-
   },
 };
 </script>
