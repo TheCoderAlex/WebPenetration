@@ -57,6 +57,20 @@ const presetList = [
     permission: null,
     cacheable: true,
   },
+  {
+    id: 5,
+    name: 'report',
+    title: '结果管理',
+    icon: 'SettingOutlined',
+    badge: '',
+    target: '_self',
+    path: '/report',
+    component: '@/pages/report',
+    renderMenu: true,
+    parent: null,
+    permission: null,
+    cacheable: true,
+  },
 ];
 
 function getMenuList() {

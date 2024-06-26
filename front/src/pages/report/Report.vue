@@ -1,9 +1,7 @@
 <script setup lang="ts">
 
-import Projects from '@/pages/process/Projects.vue';
-import MiniStatisticCard from '@/components/statistic/MiniStatisticCard.vue';
 import { useUnbounded } from '@/utils/useTheme';
-import { reactive } from 'vue';
+import Results from "@/pages/report/Results.vue";
 
   useUnbounded();
 
@@ -17,7 +15,7 @@ import { reactive } from 'vue';
 
     <div class="workplace grid grid-rows-none gap-4 mt-xxs">
       <div class="project-list grid grid-cols-12 gap-4">
-        <projects class="col-span-12 xlx:col-span-12 xxlx:col-span-20 drop-shadow-sm" />
+        <Results class="col-span-12 xlx:col-span-12 xxlx:col-span-20 drop-shadow-sm" />
       </div>
     </div>
   </div>

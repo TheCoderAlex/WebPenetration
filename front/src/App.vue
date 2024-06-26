@@ -47,6 +47,7 @@
     { title: '环境测试', path: '/environment', meta: { icon: 'SettingOutlined' }, },
     { title: '参数配置', path: '/param', meta: { icon: 'SolutionOutlined' } },
     { title: '进程管理', path: '/process', meta: { icon: 'SmileOutlined' } },
+    { title: '结果查看', path: '/report', meta: { icon: 'FormOutlined'} },
   ])
 
 
