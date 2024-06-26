@@ -61,8 +61,25 @@ const getAllReports = async () => {
 
 const downloadReport = async (filename: string) => {
   try{
-    const response = await axios.get(`/download/${filename}`);
-    console.log(`下载成功： ${response.data}`);
+    // const response = await axios.get(`/download/${filename}`);
+    // console.log(`下载成功： ${response.data}`);
+    const response = await axios({
+      url: `/download/${filename}`,
+      method: 'GET',
+      responseType: 'blob',  // 设置 responseType 为 blob 来接收文件数据
+    });
+
+    // 创建一个URL链接并用于创建一个下载链接
+    const url = window.URL.createObjectURL(new Blob([response.data]));
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', filename); // 设置下载文件名
+    document.body.appendChild(link);
+    link.click();
+    link.parentNode.removeChild(link);
+    window.URL.revokeObjectURL(url);  // 清理 blob URL
+
+    console.log(`下载成功：文件已触发下载`);
   }catch (error){
     console.error("Failed to terminate task:", error);
   }
