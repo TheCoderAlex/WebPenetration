@@ -151,7 +151,7 @@ def divide_data_size(data, clipping_size, clipping_buff):
 # Define command option.
 __doc__ = """{f}
 usage:
-    {f} [-s] [-m] [-g] [-e] [-c] [-p] [-l --log_path=<path>] [--no-update-vulndb] [--gyoiboard]
+    {f} [-s] [-m] [-g] [-e] [-c] [-p] [-l --log_path=<path>] [--no-update-vulndb] [--gyoiboard] [-r <value>]
     {f} [-d --category=<category> --vendor=<vendor> --package=<package>]
     {f} [-i --org_list --domain_list --screen_shot --through_health_check --safety --gyoiboard --no-update-vulndb]
     {f} -h | --help
@@ -165,6 +165,7 @@ options:
     -l   Optional : Analyze log based HTTP response for identify product/version.
     -d   Optional : Development of signature and train data.
     -i   Optional : Explore relevant FQDN with the target FQDN. 
+    -r <value>    Optional : Get Task id.
     -h --help     Show this help message and exit.
 """.format(f=__file__)
 
@@ -172,9 +173,6 @@ options:
 if __name__ == '__main__':
     file_name = os.path.basename(__file__)
     full_path = os.path.dirname(os.path.abspath(__file__))
-
-    utility = Utilty()
-    utility.write_log(20, '[In] GyoiThon [{}].'.format(file_name))
 
     # Get command arguments.
     args = docopt(__doc__)
@@ -198,6 +196,12 @@ if __name__ == '__main__':
     opt_invent_safety = args['--safety']
     opt_no_update_vulndb = args['--no-update-vulndb']
     opt_gyoiboard = args['--gyoiboard']
+    opt_task_id = args['-r']
+
+    utility = Utilty(opt_task_id)
+    welcome_msg = 'Task (ID = {}) is now starting.'.format(utility.get_task_id())
+    utility.print_message(NOTE, welcome_msg)
+    utility.write_log(20, '[In] GyoiThon [{}]. Task ID: {}'.format(file_name, utility.get_task_id()))
 
     # Read config.ini.
     config = configparser.ConfigParser()

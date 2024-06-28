@@ -81,7 +81,7 @@ def terminate_task():
 @api.route('/start_task', methods=['POST'])
 def run_task():
     parameters = request.json
-    task = run_gyoithon.apply_async(args=[parameters])
+    task = run_gyoithon.apply_async(args=[parameters], task_id="test_id")
     task_ids.append(task.id)
     return jsonify({'task_id': task.id})
 

@@ -57,7 +57,7 @@ class CreateReport:
         self.utility.print_message(NOTE, 'Create report header : {}'.format(self.report_path))
         self.utility.write_log(20, '[In] Create report header [{}].'.format(self.file_name))
 
-        self.report_file_name = self.report_path.replace('*', fqdn + '_' + str(port) + '_' + self.utility.get_random_token(10))
+        self.report_file_name = self.report_path.replace('*', fqdn + '_' + str(port) + '_' + self.utility.get_task_id())
         pd.DataFrame([], columns=self.header).to_csv(self.report_file_name, mode='w', index=False, encoding='utf-8')
         self.utility.write_log(20, '[Out] Create report header [{}].'.format(self.file_name))
 
@@ -137,7 +137,7 @@ class CreateReport:
 
         self.report_file_name_censys = self.report_path_censys.replace('*', fqdn + '_' +
                                                                        str(port) + '_' +
-                                                                       self.utility.get_random_token(10))
+                                                                       self.utility.get_task_id())
         pd.DataFrame([], columns=self.header_censys).to_csv(self.report_file_name_censys, mode='w', index=False)
 
         # Build base structure.
@@ -328,7 +328,7 @@ class CreateReport:
                                                                                                         col_level=1)
 
             # Output report.
-            file_invent = self.report_path_invent.replace('*', 'all_' + self.utility.get_random_token(10))
+            file_invent = self.report_path_invent.replace('*', 'all_' + self.utility.get_task_id())
             msg = 'Create All Inventory report : {}'.format(file_invent)
             self.utility.print_message(OK, msg)
             self.utility.write_log(20, msg)
@@ -377,6 +377,6 @@ class CreateReport:
         html = template.render({'title': 'GyoiThon Scan Report', 'items': items})
         self.report_path_exploit = self.report_path_exploit.replace('*', fqdn + '_' +
                                                                     str(port) + '_' +
-                                                                    self.utility.get_random_token(10))
+                                                                    self.utility.get_task_id())
         with open(self.report_path_exploit, 'w') as fout:
             fout.write(html)

@@ -38,7 +38,7 @@ NONE = 'none'     # No label.
 
 # Utility class.
 class Utilty:
-    def __init__(self):
+    def __init__(self, task_id):
         # Read config.ini.
         full_path = os.path.dirname(os.path.abspath(__file__))
         config = configparser.ConfigParser()
@@ -57,6 +57,8 @@ class Utilty:
             self.proxy_pass = config['Common']['proxy_pass']
             self.ua = config['Common']['user-agent']
             self.encoding = config['Common']['default_charset']
+            self.task_id = task_id
+
             if config['Common']['redirect'] == '0':
                 self.redirect = False
             else:
@@ -91,6 +93,10 @@ class Utilty:
         self.log_dis = 'Discovery'
         self.log_att = 'Attack'
 
+    # Get the task id.
+    def get_task_id(self):
+        return self.task_id
+    
     # Print metasploit's symbol.
     def print_message(self, type, message):
         if os.name == 'nt':
