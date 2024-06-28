@@ -16,9 +16,9 @@ MAX_OUTPUT_LINES = 10
 
 
 @celery.task(bind=True)
-def run_gyoithon(self, parameters):
+def run_gyoithon(self, parameters, ID):
     output = []
-    command = ['python', "-u", "bin/GyoiThon/gyoithon.py"]
+    command = ['python', "-u", "bin/GyoiThon/gyoithon.py", "-r", ID]
     for key, value in parameters.items():
         if value == 'true':
             if key == 'no_update_vulndb':
@@ -81,7 +81,8 @@ def terminate_task():
 @api.route('/start_task', methods=['POST'])
 def run_task():
     parameters = request.json
-    task = run_gyoithon.apply_async(args=[parameters], task_id="test_id")
+    test_id = "hhhhhhh"
+    task = run_gyoithon.apply_async(kwargs={'parameters': parameters, 'ID': test_id}, task_id=test_id)
     task_ids.append(task.id)
     return jsonify({'task_id': task.id})
 
