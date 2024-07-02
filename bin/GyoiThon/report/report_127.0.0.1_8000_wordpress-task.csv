@@ -1,873 +1,687 @@
 fqdn,ip_addr,port,cloud_type,method,origin_url,url,vendor_name,prod_name,prod_version,prod_trigger,prod_type,prod_vuln,origin_login,origin_login_trigger,wrong_comment,error_msg,server_header,log,date
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101859183.log,2024/06/28 10:18:59
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101859183.log,2024/06/28 10:18:59
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101859183.log,2024/06/28 10:18:59
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101859183.log,2024/06/28 10:18:59
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
-CVE-2016-5116
-CVE-2015-6837
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101859183.log,2024/06/28 10:18:59
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101859183.log,2024/06/28 10:18:59
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101859183.log,2024/06/28 10:18:59
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,*,test,*,test,FRAMEWORK,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101859183.log,2024/06/28 10:18:59
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,*,wordpress,*,X-Pingback,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101859183.log,2024/06/28 10:18:59
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,*,test,*,test,WEB,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101859183.log,2024/06/28 10:18:59
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,*,test,*,test,OS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101859183.log,2024/06/28 10:18:59
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101859183.log,2024/06/28 10:18:59
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101859183.log,2024/06/28 10:18:59
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101859183.log,2024/06/28 10:18:59
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=rss2,-,-,-,-,-,-,"Log : 25.0 %
-Url : 0.0 %","Log : uid
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101900875.log,2024/06/28 10:19:00
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=rss2,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
-CVE-2016-5116
-CVE-2015-6837
-","Log : 25.0 %
-Url : 0.0 %","Log : uid
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101900875.log,2024/06/28 10:19:00
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=rss2,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
-","Log : 25.0 %
-Url : 0.0 %","Log : uid
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101900875.log,2024/06/28 10:19:00
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=rss2,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : 25.0 %
-Url : 0.0 %","Log : uid
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101900875.log,2024/06/28 10:19:00
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=rss2,*,test,*,test,FRAMEWORK,Cannot search.,"Log : 25.0 %
-Url : 0.0 %","Log : uid
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101900875.log,2024/06/28 10:19:00
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=rss2,*,test,*,test,WEB,Cannot search.,"Log : 25.0 %
-Url : 0.0 %","Log : uid
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101900875.log,2024/06/28 10:19:00
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=rss2,*,test,*,test,OS,Cannot search.,"Log : 25.0 %
-Url : 0.0 %","Log : uid
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101900875.log,2024/06/28 10:19:00
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php?action=lostpassword,-,-,-,-,-,-,"Log : 25.0 %
-Url : 100.0 %","Log : <input type=""text"" name=""user
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901120.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php?action=lostpassword,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
-CVE-2016-5116
-CVE-2015-6837
-","Log : 25.0 %
-Url : 100.0 %","Log : <input type=""text"" name=""user
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901120.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php?action=lostpassword,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
-","Log : 25.0 %
-Url : 100.0 %","Log : <input type=""text"" name=""user
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901120.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php?action=lostpassword,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : 25.0 %
-Url : 100.0 %","Log : <input type=""text"" name=""user
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901120.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php?action=lostpassword,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : 25.0 %
-Url : 100.0 %","Log : <input type=""text"" name=""user
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901120.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php?action=lostpassword,*,test,*,test,FRAMEWORK,Cannot search.,"Log : 25.0 %
-Url : 100.0 %","Log : <input type=""text"" name=""user
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901120.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php?action=lostpassword,*,test,*,test,WEB,Cannot search.,"Log : 25.0 %
-Url : 100.0 %","Log : <input type=""text"" name=""user
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901120.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php?action=lostpassword,*,test,*,test,OS,Cannot search.,"Log : 25.0 %
-Url : 100.0 %","Log : <input type=""text"" name=""user
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901120.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901383.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901383.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901383.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901383.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
-CVE-2016-5116
-CVE-2015-6837
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901383.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901383.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901383.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,*,test,*,test,FRAMEWORK,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901383.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,*,wordpress,*,X-Pingback,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901383.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,*,test,*,test,WEB,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901383.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,*,test,*,test,OS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901383.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901383.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901383.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101901383.log,2024/06/28 10:19:01
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101903060.log,2024/06/28 10:19:03
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101903060.log,2024/06/28 10:19:03
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101903060.log,2024/06/28 10:19:03
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101903060.log,2024/06/28 10:19:03
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101903060.log,2024/06/28 10:19:03
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
-CVE-2016-5116
-CVE-2015-6837
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101903060.log,2024/06/28 10:19:03
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101903060.log,2024/06/28 10:19:03
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101903060.log,2024/06/28 10:19:03
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,*,test,*,test,FRAMEWORK,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101903060.log,2024/06/28 10:19:03
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,*,wordpress,*,"<body class=""home ",CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101903060.log,2024/06/28 10:19:03
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,*,test,*,test,WEB,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101903060.log,2024/06/28 10:19:03
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,*,test,*,test,OS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101903060.log,2024/06/28 10:19:03
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=comments-rss2,-,-,-,-,-,-,"Log : 25.0 %
-Url : 0.0 %","Log : uid
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904460.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=comments-rss2,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
-CVE-2016-5116
-CVE-2015-6837
-","Log : 25.0 %
-Url : 0.0 %","Log : uid
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904460.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=comments-rss2,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
-","Log : 25.0 %
-Url : 0.0 %","Log : uid
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904460.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=comments-rss2,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : 25.0 %
-Url : 0.0 %","Log : uid
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904460.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=comments-rss2,*,test,*,test,FRAMEWORK,Cannot search.,"Log : 25.0 %
-Url : 0.0 %","Log : uid
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904460.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=comments-rss2,*,test,*,test,WEB,Cannot search.,"Log : 25.0 %
-Url : 0.0 %","Log : uid
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904460.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=comments-rss2,*,test,*,test,OS,Cannot search.,"Log : 25.0 %
-Url : 0.0 %","Log : uid
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904460.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904691.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904691.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904691.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904691.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904691.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
-CVE-2016-5116
-CVE-2015-6837
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904691.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904691.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904691.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,*,test,*,test,FRAMEWORK,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904691.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,*,test,*,test,WEB,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904691.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,*,test,*,test,OS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904691.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904691.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101904691.log,2024/06/28 10:19:04
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1/favicon.ico,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,-,/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101906170.log,2024/06/28 10:19:06
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101906174.log,2024/06/28 10:19:06
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101906174.log,2024/06/28 10:19:06
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101906174.log,2024/06/28 10:19:06
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101906174.log,2024/06/28 10:19:06
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
-CVE-2016-5116
-CVE-2015-6837
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101906174.log,2024/06/28 10:19:06
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101906174.log,2024/06/28 10:19:06
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101906174.log,2024/06/28 10:19:06
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,*,test,*,test,FRAMEWORK,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101906174.log,2024/06/28 10:19:06
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,*,wordpress,*,X-Pingback,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101906174.log,2024/06/28 10:19:06
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,*,test,*,test,WEB,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101906174.log,2024/06/28 10:19:06
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,*,test,*,test,OS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101906174.log,2024/06/28 10:19:06
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101906174.log,2024/06/28 10:19:06
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101906174.log,2024/06/28 10:19:06
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101906174.log,2024/06/28 10:19:06
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101907867.log,2024/06/28 10:19:07
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101907867.log,2024/06/28 10:19:07
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101907867.log,2024/06/28 10:19:07
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101907867.log,2024/06/28 10:19:07
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101907867.log,2024/06/28 10:19:07
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
-CVE-2016-5116
-CVE-2015-6837
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101907867.log,2024/06/28 10:19:07
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101907867.log,2024/06/28 10:19:07
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101907867.log,2024/06/28 10:19:07
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,*,test,*,test,FRAMEWORK,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101907867.log,2024/06/28 10:19:07
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,*,test,*,test,WEB,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101907867.log,2024/06/28 10:19:07
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,*,test,*,test,OS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101907867.log,2024/06/28 10:19:07
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101907867.log,2024/06/28 10:19:07
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101907867.log,2024/06/28 10:19:07
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406#content,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101909279.log,2024/06/28 10:19:09
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406#content,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101909279.log,2024/06/28 10:19:09
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406#content,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101909279.log,2024/06/28 10:19:09
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406#content,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101909279.log,2024/06/28 10:19:09
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406#content,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101909279.log,2024/06/28 10:19:09
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406#content,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
-CVE-2016-5116
-CVE-2015-6837
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101909279.log,2024/06/28 10:19:09
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406#content,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101909279.log,2024/06/28 10:19:09
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406#content,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101909279.log,2024/06/28 10:19:09
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406#content,*,test,*,test,FRAMEWORK,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101909279.log,2024/06/28 10:19:09
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406#content,*,test,*,test,WEB,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101909279.log,2024/06/28 10:19:09
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406#content,*,test,*,test,OS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101909279.log,2024/06/28 10:19:09
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406#content,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101909279.log,2024/06/28 10:19:09
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406#content,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-includes/js/wp-,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101909279.log,2024/06/28 10:19:09
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101910711.log,2024/06/28 10:19:10
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101910711.log,2024/06/28 10:19:10
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101910711.log,2024/06/28 10:19:10
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101910711.log,2024/06/28 10:19:10
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
-CVE-2016-5116
-CVE-2015-6837
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101910711.log,2024/06/28 10:19:10
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101910711.log,2024/06/28 10:19:10
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101910711.log,2024/06/28 10:19:10
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,*,test,*,test,FRAMEWORK,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101910711.log,2024/06/28 10:19:10
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,*,wordpress,*,X-Pingback,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101910711.log,2024/06/28 10:19:10
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,*,test,*,test,WEB,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101910711.log,2024/06/28 10:19:10
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,*,test,*,test,OS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101910711.log,2024/06/28 10:19:10
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101910711.log,2024/06/28 10:19:10
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101910711.log,2024/06/28 10:19:10
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101910711.log,2024/06/28 10:19:10
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,-,-,-,-,-,-,"Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101912412.log,2024/06/28 10:19:12
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101912412.log,2024/06/28 10:19:12
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101912412.log,2024/06/28 10:19:12
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215300607.log,2024/07/02 21:53:00
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101912412.log,2024/06/28 10:19:12
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215300607.log,2024/07/02 21:53:00
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215300607.log,2024/07/02 21:53:00
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
 CVE-2016-5116
 CVE-2015-6837
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101912412.log,2024/06/28 10:19:12
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215300607.log,2024/07/02 21:53:00
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101912412.log,2024/06/28 10:19:12
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215300607.log,2024/07/02 21:53:00
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
 CVE-2012-3575
 CVE-2012-3576
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101912412.log,2024/06/28 10:19:12
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,*,test,*,test,FRAMEWORK,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101912412.log,2024/06/28 10:19:12
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,*,wordpress,*,X-Pingback,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215300607.log,2024/07/02 21:53:00
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101912412.log,2024/06/28 10:19:12
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,*,test,*,test,WEB,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101912412.log,2024/06/28 10:19:12
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,*,test,*,test,OS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101912412.log,2024/06/28 10:19:12
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215300607.log,2024/07/02 21:53:00
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,-,-,-,-,-,-,"Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101912412.log,2024/06/28 10:19:12
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101912412.log,2024/06/28 10:19:12
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215300607.log,2024/07/02 21:53:00
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
 CVE-2012-3575
 CVE-2012-3576
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101912412.log,2024/06/28 10:19:12
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101914119.log,2024/06/28 10:19:14
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215300607.log,2024/07/02 21:53:00
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comments,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
 CVE-2012-3575
 CVE-2012-3576
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101914119.log,2024/06/28 10:19:14
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101914119.log,2024/06/28 10:19:14
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101914119.log,2024/06/28 10:19:14
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101914119.log,2024/06/28 10:19:14
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
-CVE-2016-5116
-CVE-2015-6837
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101914119.log,2024/06/28 10:19:14
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101914119.log,2024/06/28 10:19:14
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101914119.log,2024/06/28 10:19:14
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406,*,test,*,test,FRAMEWORK,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101914119.log,2024/06/28 10:19:14
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406,*,test,*,test,WEB,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101914119.log,2024/06/28 10:19:14
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406,*,test,*,test,OS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101914119.log,2024/06/28 10:19:14
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406,-,-,-,-,-,-,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101914119.log,2024/06/28 10:19:14
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202406,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-includes/js/wp-,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101914119.log,2024/06/28 10:19:14
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215300607.log,2024/07/02 21:53:00
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,-,-,-,-,-,-,"Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101915575.log,2024/06/28 10:19:15
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215302235.log,2024/07/02 21:53:02
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
 CVE-2012-3575
 CVE-2012-3576
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101915575.log,2024/06/28 10:19:15
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101915575.log,2024/06/28 10:19:15
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101915575.log,2024/06/28 10:19:15
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215302235.log,2024/07/02 21:53:02
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101915575.log,2024/06/28 10:19:15
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215302235.log,2024/07/02 21:53:02
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215302235.log,2024/07/02 21:53:02
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
 CVE-2016-5116
 CVE-2015-6837
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101915575.log,2024/06/28 10:19:15
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215302235.log,2024/07/02 21:53:02
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101915575.log,2024/06/28 10:19:15
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215302235.log,2024/07/02 21:53:02
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
 CVE-2012-3575
 CVE-2012-3576
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101915575.log,2024/06/28 10:19:15
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,*,test,*,test,FRAMEWORK,Cannot search.,"Log : - %
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215302235.log,2024/07/02 21:53:02
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
+","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101915575.log,2024/06/28 10:19:15
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,*,test,*,test,WEB,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101915575.log,2024/06/28 10:19:15
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,*,test,*,test,OS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101915575.log,2024/06/28 10:19:15
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215302235.log,2024/07/02 21:53:02
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,-,-,-,-,-,-,"Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101915575.log,2024/06/28 10:19:15
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215302235.log,2024/07/02 21:53:02
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1#content,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
 CVE-2012-3575
 CVE-2012-3576
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101915575.log,2024/06/28 10:19:15
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,-,-,-,-,-,-,"Log : - %
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215302235.log,2024/07/02 21:53:02
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407#content,-,-,-,-,-,-,"Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101917023.log,2024/06/28 10:19:17
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101917023.log,2024/06/28 10:19:17
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215303563.log,2024/07/02 21:53:03
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407#content,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
 CVE-2012-3575
 CVE-2012-3576
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101917023.log,2024/06/28 10:19:17
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215303563.log,2024/07/02 21:53:03
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407#content,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215303563.log,2024/07/02 21:53:03
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407#content,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215303563.log,2024/07/02 21:53:03
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407#content,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
+CVE-2016-5116
+CVE-2015-6837
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215303563.log,2024/07/02 21:53:03
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407#content,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215303563.log,2024/07/02 21:53:03
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407#content,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215303563.log,2024/07/02 21:53:03
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407#content,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215303563.log,2024/07/02 21:53:03
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407#content,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215303563.log,2024/07/02 21:53:03
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407#content,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-includes/js/wp-,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215303563.log,2024/07/02 21:53:03
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215304878.log,2024/07/02 21:53:04
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215304878.log,2024/07/02 21:53:04
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215304878.log,2024/07/02 21:53:04
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
+CVE-2016-5116
+CVE-2015-6837
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215304878.log,2024/07/02 21:53:04
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215304878.log,2024/07/02 21:53:04
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215304878.log,2024/07/02 21:53:04
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215304878.log,2024/07/02 21:53:04
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215304878.log,2024/07/02 21:53:04
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215304878.log,2024/07/02 21:53:04
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#respond,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215304878.log,2024/07/02 21:53:04
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215306485.log,2024/07/02 21:53:06
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215306485.log,2024/07/02 21:53:06
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215306485.log,2024/07/02 21:53:06
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215306485.log,2024/07/02 21:53:06
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
+CVE-2016-5116
+CVE-2015-6837
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215306485.log,2024/07/02 21:53:06
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215306485.log,2024/07/02 21:53:06
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215306485.log,2024/07/02 21:53:06
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215306485.log,2024/07/02 21:53:06
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215307831.log,2024/07/02 21:53:07
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101917023.log,2024/06/28 10:19:17
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215307831.log,2024/07/02 21:53:07
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215307831.log,2024/07/02 21:53:07
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
 CVE-2016-5116
 CVE-2015-6837
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101917023.log,2024/06/28 10:19:17
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215307831.log,2024/07/02 21:53:07
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101917023.log,2024/06/28 10:19:17
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215307831.log,2024/07/02 21:53:07
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
 CVE-2012-3575
 CVE-2012-3576
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101917023.log,2024/06/28 10:19:17
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,*,test,*,test,FRAMEWORK,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101917023.log,2024/06/28 10:19:17
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,*,wordpress,*,X-Pingback,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215307831.log,2024/07/02 21:53:07
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101917023.log,2024/06/28 10:19:17
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,*,test,*,test,WEB,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101917023.log,2024/06/28 10:19:17
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,*,test,*,test,OS,Cannot search.,"Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101917023.log,2024/06/28 10:19:17
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215307831.log,2024/07/02 21:53:07
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,-,-,-,-,-,-,"Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101917023.log,2024/06/28 10:19:17
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
-CVE-2012-3575
-CVE-2012-3576
-","Log : - %
-Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101917023.log,2024/06/28 10:19:17
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215307831.log,2024/07/02 21:53:07
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
 CVE-2012-3575
 CVE-2012-3576
 ","Log : - %
 Url : 0.0 %","Log : -
-Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101917023.log,2024/06/28 10:19:17
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215307831.log,2024/07/02 21:53:07
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#content,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215307831.log,2024/07/02 21:53:07
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php,-,-,-,-,-,-,"Log : 25.0 %
 Url : 100.0 %","Log : <input type=""password""
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101918696.log,2024/06/28 10:19:18
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
-CVE-2016-5116
-CVE-2015-6837
-","Log : 25.0 %
-Url : 100.0 %","Log : <input type=""password""
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101918696.log,2024/06/28 10:19:18
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
-CVE-2014-3523
-","Log : 25.0 %
-Url : 100.0 %","Log : <input type=""password""
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101918696.log,2024/06/28 10:19:18
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
-CVE-2006-5877
-CVE-2007-4137
-","Log : 25.0 %
-Url : 100.0 %","Log : <input type=""password""
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101918696.log,2024/06/28 10:19:18
+Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309460.log,2024/07/02 21:53:09
 127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
 CVE-2012-3575
 CVE-2012-3576
 ","Log : 25.0 %
 Url : 100.0 %","Log : <input type=""password""
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101918696.log,2024/06/28 10:19:18
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php,*,test,*,test,FRAMEWORK,Cannot search.,"Log : 25.0 %
+Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309460.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : 25.0 %
 Url : 100.0 %","Log : <input type=""password""
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101918696.log,2024/06/28 10:19:18
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php,*,test,*,test,WEB,Cannot search.,"Log : 25.0 %
+Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309460.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
+CVE-2016-5116
+CVE-2015-6837
+","Log : 25.0 %
 Url : 100.0 %","Log : <input type=""password""
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101918696.log,2024/06/28 10:19:18
-127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php,*,test,*,test,OS,Cannot search.,"Log : 25.0 %
+Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309460.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
+","Log : 25.0 %
 Url : 100.0 %","Log : <input type=""password""
-Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240628101918696.log,2024/06/28 10:19:18
+Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309460.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=rss2,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309679.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=rss2,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
+","Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309679.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=rss2,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309679.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=rss2,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
+CVE-2016-5116
+CVE-2015-6837
+","Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309679.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309874.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309874.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309874.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
+CVE-2016-5116
+CVE-2015-6837
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309874.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309874.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309874.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309874.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309874.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309874.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1&replytocom=1#respond,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215309874.log,2024/07/02 21:53:09
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215311469.log,2024/07/02 21:53:11
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215311469.log,2024/07/02 21:53:11
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215311469.log,2024/07/02 21:53:11
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215311469.log,2024/07/02 21:53:11
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
+CVE-2016-5116
+CVE-2015-6837
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215311469.log,2024/07/02 21:53:11
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215311469.log,2024/07/02 21:53:11
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215311469.log,2024/07/02 21:53:11
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215311469.log,2024/07/02 21:53:11
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215311469.log,2024/07/02 21:53:11
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?m=202407,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-includes/js/wp-,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215311469.log,2024/07/02 21:53:11
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php?action=lostpassword,-,-,-,-,-,-,"Log : 25.0 %
+Url : 100.0 %","Log : <input type=""text"" name=""user
+Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215312787.log,2024/07/02 21:53:12
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php?action=lostpassword,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : 25.0 %
+Url : 100.0 %","Log : <input type=""text"" name=""user
+Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215312787.log,2024/07/02 21:53:12
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php?action=lostpassword,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : 25.0 %
+Url : 100.0 %","Log : <input type=""text"" name=""user
+Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215312787.log,2024/07/02 21:53:12
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php?action=lostpassword,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
+CVE-2016-5116
+CVE-2015-6837
+","Log : 25.0 %
+Url : 100.0 %","Log : <input type=""text"" name=""user
+Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215312787.log,2024/07/02 21:53:12
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/wp-login.php?action=lostpassword,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
+","Log : 25.0 %
+Url : 100.0 %","Log : <input type=""text"" name=""user
+Url : login",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215312787.log,2024/07/02 21:53:12
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215312988.log,2024/07/02 21:53:12
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215312988.log,2024/07/02 21:53:12
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215312988.log,2024/07/02 21:53:12
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215312988.log,2024/07/02 21:53:12
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
+CVE-2016-5116
+CVE-2015-6837
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215312988.log,2024/07/02 21:53:12
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215312988.log,2024/07/02 21:53:12
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215312988.log,2024/07/02 21:53:12
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215312988.log,2024/07/02 21:53:12
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215312988.log,2024/07/02 21:53:12
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?author=1,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215312988.log,2024/07/02 21:53:12
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215314316.log,2024/07/02 21:53:14
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215314316.log,2024/07/02 21:53:14
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215314316.log,2024/07/02 21:53:14
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
+CVE-2016-5116
+CVE-2015-6837
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215314316.log,2024/07/02 21:53:14
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215314316.log,2024/07/02 21:53:14
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215314316.log,2024/07/02 21:53:14
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215314316.log,2024/07/02 21:53:14
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215314316.log,2024/07/02 21:53:14
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215314316.log,2024/07/02 21:53:14
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1#comment-1,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215314316.log,2024/07/02 21:53:14
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=comments-rss2,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215315899.log,2024/07/02 21:53:15
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=comments-rss2,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
+","Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215315899.log,2024/07/02 21:53:15
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=comments-rss2,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215315899.log,2024/07/02 21:53:15
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?feed=comments-rss2,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
+CVE-2016-5116
+CVE-2015-6837
+","Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215315899.log,2024/07/02 21:53:15
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215316085.log,2024/07/02 21:53:16
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215316085.log,2024/07/02 21:53:16
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215316085.log,2024/07/02 21:53:16
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215316085.log,2024/07/02 21:53:16
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
+CVE-2016-5116
+CVE-2015-6837
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215316085.log,2024/07/02 21:53:16
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215316085.log,2024/07/02 21:53:16
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215316085.log,2024/07/02 21:53:16
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215316085.log,2024/07/02 21:53:16
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215316085.log,2024/07/02 21:53:16
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?cat=1,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215316085.log,2024/07/02 21:53:16
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1/favicon.ico,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,-,/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215317512.log,2024/07/02 21:53:17
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215317521.log,2024/07/02 21:53:17
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,wordpress,wordpress,4.6,WordPress 4.6,CMS,Cannot search.,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215317521.log,2024/07/02 21:53:17
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,apache,http_server,2.4.7,Apache/2.4.7,Web,"CVE-2015-3184
+CVE-2014-3523
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215317521.log,2024/07/02 21:53:17
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,php,php,5.5.9,PHP/5.5.9,Language,"CVE-2015-4642
+CVE-2016-5116
+CVE-2015-6837
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215317521.log,2024/07/02 21:53:17
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,wordpress,wordpress,*,"""http://127.0.0.1:8000/wp-",CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215317521.log,2024/07/02 21:53:17
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,wordpress,wordpress,*,://127.0.0.1:8000/xmlrpc.php,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215317521.log,2024/07/02 21:53:17
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2010-0834
+CVE-2006-5877
+CVE-2007-4137
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215317521.log,2024/07/02 21:53:17
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215317521.log,2024/07/02 21:53:17
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,wordpress,wordpress,*,'http://127.0.0.1:8000/wp-,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215317521.log,2024/07/02 21:53:17
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/?p=1,wordpress,wordpress,*,powered by WordPress,CMS,"CVE-2020-26596
+CVE-2012-3575
+CVE-2012-3576
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.7 (Ubuntu),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240702215317521.log,2024/07/02 21:53:17
