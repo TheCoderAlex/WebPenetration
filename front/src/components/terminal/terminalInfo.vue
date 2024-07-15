@@ -45,6 +45,10 @@
       <a-form-item>
         <a-checkbox v-model:checked="options.no_update_vulndb">--no-update-vulndb</a-checkbox>
       </a-form-item>
+      <a-form-item>
+        task_id:
+        <a-textarea v-model:value="options.task_id"/>
+      </a-form-item>
 
       <a-form-item>
         <a-button type="primary" html-type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded">start</a-button>
@@ -74,7 +78,8 @@ export default {
       p: false,
       l: false,
       i: false,
-      no_update_vulndb: false
+      no_update_vulndb: false,
+      task_id: ''
     });
 
     const startTask = async () => {

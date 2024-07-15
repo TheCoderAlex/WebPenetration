@@ -22,6 +22,13 @@
               </a-radio-group>
             </div>
           </div>
+          <div v-else-if="column.dataIndex === 'download'">
+            <div class="flex items-center">
+              <a-radio-group>
+                <a-radio-button @click="downloadReport(record.filename)">下载</a-radio-button>
+              </a-radio-group>
+            </div>
+          </div>
 
           <!-- 其他列显示默认文本内容 -->
           <div v-else>
@@ -49,9 +56,13 @@ import router from "@/router";
 const columns = [
   { title: '进程ID', dataIndex: 'pID' },
   { title: '运行状态', dataIndex: 'status'},
-  { title: '相关操作', dataIndex: 'progress' },
+  { title: '进程操作', dataIndex: 'progress' },
+  { title: '结果文件', dataIndex: 'filename' },
+  { title: '文件大小', dataIndex: 'size' },
+  { title: '结果下载', dataIndex: 'download' },
 ];
 const dataSource = ref([]);
+const fileSource = ref([]);
 
 const getAllTaskInfo = async () => {
   try {
@@ -71,11 +82,32 @@ const getAllTaskInfo = async () => {
     console.error('Failed to get ids', error);
   }
 };
+const getAllReports = async () => {
+  try {
+    const response = await axios.get('/reports');
+
+    fileSource.value = response.data;
+
+    console.log('reports查询成功:', fileSource.value, '=======', response.data);
+  } catch (error) {
+    console.error('Failed to get ids', error);
+  }
+};
 const addTaskIdsDataSource = (response, status): void => {
-  const newEntries = response.data.task_ids.map((id: string) => ({
-      pID: id,
-      status: status
-    }));
+  // console.log("addMethod===============", fileSource.value)
+  const filteredData = fileSource.value.find(item => item.filename.includes("12345"));
+  console.log("find=============", filteredData)
+const newEntries = response.data.task_ids.map((id: string) => {
+  const foundItem = fileSource.value.find(item => item.filename.includes(id)) || { filename: 'null', size: '0 B' };
+
+  return {
+    pID: id,
+    status: status,
+    filename: foundItem.filename,
+    size: foundItem.size
+  };
+});
+
   newEntries.forEach((entry: void) => {
     dataSource.value.push(entry);
   })
@@ -119,15 +151,42 @@ const terminateTask = async (taskId: string) => {
     console.error("Failed to terminate task:", error);
   }
 }
+
+const downloadReport = async (filename: string) => {
+  try{
+    // const response = await axios.get(`/download/${filename}`);
+    // console.log(`下载成功： ${response.data}`);
+    const response = await axios({
+      url: `/download/${filename}`,
+      method: 'GET',
+      responseType: 'blob',  // 设置 responseType 为 blob 来接收文件数据
+    });
+
+    // 创建一个URL链接并用于创建一个下载链接
+    const url = window.URL.createObjectURL(new Blob([response.data]));
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', filename); // 设置下载文件名
+    document.body.appendChild(link);
+    link.click();
+    link.parentNode.removeChild(link);
+    window.URL.revokeObjectURL(url);  // 清理 blob URL
+
+    console.log(`下载成功：文件已触发下载`);
+  }catch (error){
+    console.error("Failed to terminate task:", error);
+  }
+}
 const goToWorkplace = () =>{
   router.push('/workplace');
 }
 
-onMounted(() => {
-  getAllTaskInfo();
-  getTerminatedTaskInfo();
-  getSuccessTaskInfo();
-  getFailedTaskInfo();
+onMounted(async() => {
+  await getAllReports();
+  await getAllTaskInfo();
+  await getTerminatedTaskInfo();
+  await getSuccessTaskInfo();
+  await getFailedTaskInfo();
 });
 </script>
 

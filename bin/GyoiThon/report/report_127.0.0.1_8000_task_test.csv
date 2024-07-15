@@ -1,0 +1,7 @@
+fqdn,ip_addr,port,cloud_type,method,origin_url,url,vendor_name,prod_name,prod_version,prod_trigger,prod_type,prod_vuln,origin_login,origin_login_trigger,wrong_comment,error_msg,server_header,log,date
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,-,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240715175537530.log,2024/07/15 17:55:37
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1/favicon.ico,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,-,/home/kali/PycharmProjects/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240715175537550.log,2024/07/15 17:55:37
