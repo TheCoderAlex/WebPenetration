@@ -20,7 +20,7 @@ def run_gyoithon(self, parameters, ID):
     output = []
     command = ['python', "-u", "bin/GyoiThon/gyoithon.py", "-r", ID]
     for key, value in parameters.items():
-        if value == 'true':
+        if value == True:
             if key == 'no_update_vulndb':
                 command.append('--no-update-vulndb')
             else:
