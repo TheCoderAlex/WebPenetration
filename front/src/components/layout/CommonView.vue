@@ -3,7 +3,7 @@
     <div class="common-header">
       <div class="common-header-main">
         <div class="logo">
-          <img class="img" src="@/assets/logo/SEU-logo.svg"  alt="图片无法显示"/>
+          <img class="img" src="@/assets/logo/police.svg"  alt="图片无法显示"/>
         </div>
         <div class="navigation">
           <div class="nav-item">
