@@ -9,6 +9,9 @@ succeeded_task_ids = []
 failed_task_ids = []
 terminated_task_ids = []
 non_progress_count = {}
+
+progress_id = {}
+
 STOP_THRESHOLD = 10
 
 # 输出缓存的最大行数
@@ -25,7 +28,7 @@ def run_gyoithon(self, parameters, ID):
                 command.append('--no-update-vulndb')
             else:
                 command.append('-' + key)
-    print(command)
+    # print(command)
     process = subprocess.Popen(command, stdout=subprocess.PIPE,
                                stderr=subprocess.STDOUT,
                                bufsize=1,
@@ -81,20 +84,32 @@ def terminate_task():
 @api.route('/start_task', methods=['POST'])
 def run_task():
     parameters = request.json
-    task_id = request.json.get('task_id');
+    task_id = request.json.get('task_id')
+    progress_id[task_id] = 0
     task = run_gyoithon.apply_async(kwargs={'parameters': parameters, 'ID': task_id}, task_id=task_id)
     task_ids.append(task.id)
     return jsonify({'task_id': task.id})
 
+@api.route('/get_progress/<task_id>/', methods=['GET'])
+def get_progress(task_id):
+    return jsonify({'progress': progress_id[task_id]})
 
 @api.route('/task_status/<task_id>/', methods=['GET'])
 def task_status(task_id):
     task = run_gyoithon.AsyncResult(task_id)
+
+    text = task.info['output'][0]
+    if 'scrapy' in text or 'Scrapy' in text or ('check' in text and 'using' in text):
+        progress_id[task_id] = 1
+    elif 'exploit' in text:
+        progress_id[task_id] = 2
+
     if task.state == 'PROGRESS':
         if task_id in non_progress_count:
             non_progress_count[task_id] = 0
         return task.info['output']
     elif task.state == 'SUCCESS':
+        progress_id[task_id] = 3
         if task_id in non_progress_count:
             del non_progress_count[task_id]
         celery.control.revoke(task_id, terminate=True)
