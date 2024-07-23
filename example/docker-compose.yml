@@ -1,0 +1,26 @@
+version: '3.1'
+
+services:
+
+  drupal:
+    image: drupal:7.57
+    ports:
+      - 8000:80
+    volumes:
+      - drupal-data:/var/www/html
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: drupal
+      MYSQL_USER: drupal
+      MYSQL_PASSWORD: drupalpassword
+    volumes:
+      - db-data:/var/lib/mysql
+
+volumes:
+  drupal-data:
+  db-data:
