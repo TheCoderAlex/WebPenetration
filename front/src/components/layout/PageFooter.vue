@@ -2,11 +2,11 @@
 <template>
   <div class="page-footer">
     <div class="links">
-      <a class="link" href="https://www.seu.edu.cn" target="_blank"> 东南大学官网 </a>
+      <a class="link" href="https://www.trimps.ac.cn/gass/index.html" target="_blank">公安部第三研究所</a>
     </div>
     <div class="copyright">
       Copyright
-      <CopyrightOutlined class="icon-copyright" /> 2024 SEU 东南大学
+      <CopyrightOutlined class="icon-copyright" /> 2024 公安三所
     </div>
   </div>
 </template>

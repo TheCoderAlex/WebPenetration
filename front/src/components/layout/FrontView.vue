@@ -35,7 +35,7 @@
       <div class="text-text flex-1">
         <div class="front-header flex items-baseline py-md px-xl">
           <router-link to="/home" class="text-xxl text-text hover:text-text">
-            <img src="@/assets/logo/SEU-logo.svg"  alt="图片无法展示"/>
+            公安部第三研究所
           </router-link>
           <div
             style="width: calc(100% - 430px)"

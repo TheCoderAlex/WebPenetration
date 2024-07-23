@@ -6,7 +6,7 @@
         <span class="button yellow"></span>
         <span class="button green"></span>
       </div>
-      <div class="title">Terminal</div>
+      <div class="title">终端</div>
     </div>
     <div class="terminal-body flex-auto break-all" ref="terminalBody">
       <div class="pre font-bold" v-html="formattedTerminalInfo"></div>
@@ -16,42 +16,43 @@
 
   <div class="form-container workplace grid grid-rows-none gap-4 mt-xxs space-y-2">
     <a-form @submit.prevent="startTask">
-      <overview-title title="params" subtitle="测试目标" />
+      <overview-title title="参数" subtitle="测试目标" />
       <hr />
       <a-form-item>
-        <a-checkbox v-model:checked="options.s">Examine cloud service</a-checkbox>
+        <a-checkbox v-model:checked="options.s">检测是否使用云服务</a-checkbox>
       </a-form-item>
       <a-form-item>
-        <a-checkbox v-model:checked="options.m">Analyze HTTP response for identify product/version using Machine Learning</a-checkbox>
+        <a-checkbox v-model:checked="options.m">使用机器学习</a-checkbox>
       </a-form-item>
       <a-form-item>
-        <a-checkbox v-model:checked="options.g">Google Custom Search for identify product/version:</a-checkbox>
+        <a-checkbox v-model:checked="options.g">使用Google搜索产品信息和版本</a-checkbox>
       </a-form-item>
       <a-form-item>
-        <a-checkbox v-model:checked="options.e">Explore default path of product</a-checkbox>
+        <a-checkbox v-model:checked="options.e">遍历产品默认路径</a-checkbox>
       </a-form-item>
       <a-form-item>
-        <a-checkbox v-model:checked="options.c">Discover open ports and wrong ssl server certification using Censys</a-checkbox>
+        <a-checkbox v-model:checked="options.c"> 使用Censys检查开放端口号和SSL认证</a-checkbox>
       </a-form-item>
       <a-form-item>
-        <a-checkbox v-model:checked="options.p">Execute exploit module using Metasploit</a-checkbox>
+        <a-checkbox v-model:checked="options.p">使用Metasploit进行渗透</a-checkbox>
       </a-form-item>
       <a-form-item>
-        <a-checkbox v-model:checked="options.l">Analyze log based HTTP response for identify product/version</a-checkbox>
+        <a-checkbox v-model:checked="options.l">使用已存储的HTTP响应执行各种检查</a-checkbox>
       </a-form-item>
       <a-form-item>
-        <a-checkbox v-model:checked="options.i">Explore relevant FQDN with the target FQDN</a-checkbox>
+        <a-checkbox v-model:checked="options.i">探索和目标域名相关的域名</a-checkbox>
       </a-form-item>
       <a-form-item>
-        <a-checkbox v-model:checked="options.no_update_vulndb">--no-update-vulndb</a-checkbox>
+        <a-checkbox v-model:checked="options.no_update_vulndb">不更新漏洞数据库</a-checkbox>
       </a-form-item>
       <a-form-item>
         task_id:
         <a-textarea v-model:value="options.task_id"/>
       </a-form-item>
 
-      <a-form-item>
-        <a-button type="primary" html-type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded">start</a-button>
+      <a-form-item class="button-group">
+        <a-button type="primary" html-type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded">开始渗透</a-button>
+        <a-button class="button-spacing" @click="clearTerminal">清空终端</a-button>
       </a-form-item>
     </a-form>
   </div>
@@ -61,6 +62,7 @@
 import { ref, computed, nextTick } from 'vue';
 import axios from 'axios';
 import OverviewTitle from '@/components/statistic/OverviewTitle.vue';
+import { progressId } from './shared.js'
 
 axios.defaults.baseURL = '/api';
 export default {
@@ -81,6 +83,10 @@ export default {
       no_update_vulndb: false,
       task_id: ''
     });
+
+    const clearTerminal = () => {
+      this.terminalInfo = '';
+    };
 
     const startTask = async () => {
       try {
@@ -126,6 +132,8 @@ export default {
       this.pollingInterval = setInterval(async () => {
         try {
           const response = await axios.get(`/task_status/${taskId}/`);
+          const progId = await axios.get(`/get_progress/${taskId}/`);
+          progressId.value = progId.data.progress;
           terminalInfo.value += response.data;
           await nextTick();
           // 自动滚动到底部
@@ -144,6 +152,7 @@ export default {
       }, 1500);
     }
 
+
     const formattedTerminalInfo = computed(() => {
       return terminalInfo.value;
     });
@@ -155,6 +164,7 @@ export default {
       terminateTaskId: '',
       statusTaskId: '',
       taskStatus: '',
+      clearTerminal,
       pollingInterval: null,
       terminalInfo,
       loading,
@@ -174,9 +184,9 @@ export default {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  margin: 20px auto;
+  margin: 15px 15px 15px 15px;
   width: calc(78%);
-  height: 115vh;
+  height: 85vh;
   flex-direction: column;
 }
 
@@ -250,4 +260,18 @@ export default {
   width: calc(18%);
   @apply justify-center items-center mt-md -mx-2;
 }
+
+.button-group {
+  display: flex;
+  align-items: center;
+}
+
+.button-spacing {
+  margin-right: 40px; /* 设置按钮之间的右侧间距，可以根据需要调整 */
+}
+
+.button-group a-button:last-child {
+  margin-right: 0; /* 去掉最后一个按钮的右侧间距 */
+}
+
 </style>

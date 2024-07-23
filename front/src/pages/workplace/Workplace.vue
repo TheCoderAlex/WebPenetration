@@ -3,16 +3,19 @@
     <div class="bg-container p-base rounded-b-lg rounded-tr-lg pt-8 flex items-center justify-start">
       <a-form ref="formRef" :model="formState" class="form-full">
         <a-form-item label="Target Hosts: " name="hosts_content" class="form-item">
-          <a-textarea v-model:value="formState.hosts_content" class="textarea-full" />
+          <a-textarea v-model:value="formState.hosts_content" placeholder="eg. http 192.168.1.1 8080 /" class="textarea-full" />
         </a-form-item>
         <a-form-item class="form-item">
           <a-button type="primary" @click="onSubmit">Save</a-button>
         </a-form-item>
       </a-form>
-      <div class="h3-container">
-        <h3>TARGET FORMAT: </h3>
-        <h3>协议 域名/IP 端口 目录</h3>
-      </div>
+
+        <a-steps :current="progressId">
+          <a-step title="准备" description="更新数据库" />
+          <a-step title="分析" description="爬取并分析Web服务" />
+          <a-step title="渗透" description="对Web服务进行攻击" />
+        </a-steps>
+
     </div>
 
     <div class="bg-container p-base rounded-b-lg rounded-tr-lg pt-8 flex items-end justify-between">
@@ -25,6 +28,7 @@
 import { reactive, ref, onMounted } from 'vue';
 import { useUnbounded } from '@/utils/useTheme';
 import TerminalInfo from '@/components/terminal/terminalInfo.vue';
+import { progressId } from '@/components/terminal/shared.js';
 import axios from 'axios';
 
 interface FormState {
@@ -95,7 +99,7 @@ useUnbounded();
   align-items: center;
   max-width: 800px;  /* 限制表单的最大宽度，使其在较大屏幕上不会过宽 */
   width: 100%;  /* 使表单在较小屏幕上占据全部宽度 */
-  margin-right: 0.5rem;  /* 调整右边距以缩短与 h3 的距离 */
+  margin-right: 0.1rem;  /* 调整右边距以缩短与 h3 的距离 */
 }
 
 .form-item {
@@ -113,10 +117,4 @@ a-form-item {
   align-items: center;
 }
 
-.h3-container {
-  display: flex;
-  align-items: center;
-  gap: 1rem; /* 缩小 h3 之间的间距 */
-  margin-left: 0.1rem; /* 调整左边距，以靠近表单 */
-}
 </style>

@@ -2,8 +2,8 @@
   <a-config-provider :getPopupContainer="getPopupContainer">
     <ThemeProvider is-root v-bind="themeConfig" :apply-style="false">
       <stepin-view
-        system-name="SEU Tool"
-        logo-src="@/assets/logo/SEU-logo.svg"
+        system-name="自动化渗透系统"
+        logo-src="@/assets/logo/police.svg"
         :class="`${contentClass}`"
         :navMode="navigation"
         :useTabs="useTabs"
