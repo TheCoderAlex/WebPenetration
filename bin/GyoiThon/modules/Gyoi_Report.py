@@ -373,8 +373,8 @@ class CreateReport:
         # Setting template.
         env = Environment(loader=FileSystemLoader(self.report_dir))
         template = env.get_template(self.template)
-        pd.set_option('display.max_colwidth', -1)
-        html = template.render({'title': 'GyoiThon Scan Report', 'items': items})
+        pd.set_option('display.max_colwidth', None)
+        html = template.render({'title': '自动化渗透测试报告', 'items': items})
         self.report_path_exploit = self.report_path_exploit.replace('*', fqdn + '_' +
                                                                     str(port) + '_' +
                                                                     self.utility.get_task_id())
