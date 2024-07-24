@@ -46,52 +46,61 @@
         tr:hover {
             background-color: #ddd;
         }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h2 {
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
-    <h2>GyoiThon scan Report</h2>
+    <h2>自动化渗透测试报告</h2>
     <table>
     <thead>
         <tr>
-            <th>Index</th>
-            <th>Item</th>
-            <th>Value</th>
+            <th>序号</th>
+            <th>项目</th>
+            <th>内容</th>
         </tr>
     </thead>
     {% for item in items %}
     <tbody>
         <tr>
             <td rowspan="10">{{ loop.index }}</td>
-            <td>IP address</td>
+            <td>IP地址</td>
             <td>{{ item.ip_addr }}</td>
         </tr>
         <tr>
-            <td>Port number</td>
+            <td>端口号</td>
             <td>{{ item.port }}</td>
         </tr>
         <tr>
-            <td>Product name</td>
+            <td>产品名称</td>
             <td>{{ item.prod_name }}</td>
         </tr>
         <tr>
-            <td>Vuln name</td>
+            <td>漏洞名称</td>
             <td>{{ item.vuln_name }}</td>
         </tr>
         <tr>
-            <td>Type</td>
+            <td>类型</td>
             <td>{{ item.type }}</td>
         </tr>
         <tr>
-            <td>Description</td>
+            <td>漏洞描述</td>
             <td>{{ item.description }}</td>
         </tr>
         <tr>
-            <td>Exploit module</td>
+            <td>攻击模块</td>
             <td>{{ item.exploit }}</td>
         </tr>
         <tr>
-            <td>Target</td>
+            <td>目标序号</td>
             <td>{{ item.target }}</td>
         </tr>
         <tr>
@@ -99,7 +108,7 @@
             <td>{{ item.payload }}</td>
         </tr>
         <tr>
-            <td>Reference</td>
+            <td>参考</td>
             <td>{{ item.ref }}</td>
         </tr>
     </tbody>
