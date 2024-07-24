@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, send_from_directory, request, send_file
 import os
 import time
+import pandas as pd
 from app.api import api
 
 report_dir = "bin/GyoiThon/report"
@@ -35,7 +36,7 @@ def get_files(directory):
         for filename in files:
             file_path = os.path.join(root, filename)
             relative_path = os.path.relpath(file_path, directory)
-            if filename not in exclude_files:
+            if filename not in exclude_files and not filename.endswith('.html'):
                 file_info = get_file_info(directory, relative_path)
                 files_list.append(file_info)
     return files_list
@@ -71,6 +72,38 @@ def download_file(filename):
             path = os.path.join(logs_dir, filename)
             path = '../' + path
             return send_file(path, as_attachment=True)
+        else:
+            return jsonify({'error': 'File not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+    
+@api.route("/get_result/<path:filename>", methods=['GET'])
+def get_result(filename):
+    try:
+        parent_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../bin/GyoiThon/report'))
+        csv_file_path = os.path.join(parent_directory, filename)
+        print(csv_file_path)
+        if os.path.exists(csv_file_path):
+
+            df = pd.read_csv(csv_file_path)
+            data = df.to_dict(orient='records')
+
+            return jsonify(data)
+        else:
+            return jsonify({'error': 'File not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@api.route("/view_exploit_report/<path:filename>", methods=['GET'])
+def view_exploit_report(filename):
+    try:
+        parent_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../bin/GyoiThon/report'))
+        html_file_path = os.path.join(parent_directory, filename)
+        if os.path.exists(html_file_path):
+            with open(html_file_path, 'r', encoding='utf-8') as file:
+                html_content = file.read()
+
+            return jsonify({'html': html_content})
         else:
             return jsonify({'error': 'File not found'}), 404
     except Exception as e:
