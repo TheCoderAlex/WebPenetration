@@ -1,0 +1,1152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="127.0.0.1 RSS" href="http://127.0.0.1:8000/rss.xml" />
+<link rel="shortcut icon" href="http://127.0.0.1:8000/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>127.0.0.1</title>
+  <style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/modules/system/system.base.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.menus.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.messages.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.theme.css?sh0hbc");
+</style>
+<style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/modules/comment/comment.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/field/theme/field.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/node/node.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/search/search.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/user/user.css?sh0hbc");
+</style>
+<style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/themes/bartik/css/layout.css?sh0hbc");
+@import url("http://127.0.0.1:8000/themes/bartik/css/style.css?sh0hbc");
+@import url("http://127.0.0.1:8000/themes/bartik/css/colors.css?sh0hbc");
+</style>
+<style type="text/css" media="print">
+@import url("http://127.0.0.1:8000/themes/bartik/css/print.css?sh0hbc");
+</style>
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1:8000/themes/bartik/css/ie.css?sh0hbc" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1:8000/themes/bartik/css/ie6.css?sh0hbc" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/drupal.js?sh0hbc"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bartik","theme_token":"Y-jKBFSG-bBVA27Q6mmsw7ZOjOhVgW6lULJTTUPZ9Mg","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/bartik\/css\/layout.css":1,"themes\/bartik\/css\/style.css":1,"themes\/bartik\/css\/colors.css":1,"themes\/bartik\/css\/print.css":1,"themes\/bartik\/css\/ie.css":1,"themes\/bartik\/css\/ie6.css":1}},"urlIsAjaxTrusted":{"\/node?destination=node":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html front not-logged-in one-sidebar sidebar-first page-node" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <div id="header" class="without-secondary-menu"><div class="section clearfix">
+
+          <a href="/" title="Home" rel="home" id="logo">
+        <img src="http://127.0.0.1:8000/themes/bartik/logo.png" alt="Home" />
+      </a>
+    
+          <div id="name-and-slogan">
+
+                              <h1 id="site-name">
+              <a href="/" title="Home" rel="home"><span>127.0.0.1</span></a>
+            </h1>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+    
+    
+          <div id="main-menu" class="navigation">
+        <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-219 first last active"><a href="/" class="active">Home</a></li>
+</ul>      </div> <!-- /#main-menu -->
+    
+    
+  </div></div> <!-- /.section, /#header -->
+
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+
+    
+          <div id="sidebar-first" class="column sidebar"><div class="section">
+          <div class="region region-sidebar-first">
+    <div id="block-user-login" class="block block-user">
+
+    <h2>User login</h2>
+  
+  <div class="content">
+    <form action="/node?destination=node" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Create a new user account.">Create new account</a></li>
+<li class="last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-CwyBolR_0mQH6WKgFVZRQrEP-u809XlgFLcnGHmRD-U" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Log in" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+      </div></div> <!-- /.section, /#sidebar-first -->
+    
+    <div id="content" class="column"><div class="section">
+            <a id="main-content"></a>
+                                <div class="tabs">
+                  </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-1" class="node node-article node-promoted node-teaser clearfix" about="/node/1" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/node/1">Hello</a>
+    </h2>
+    <span property="dc:title" content="Hello" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2024-07-22T14:14:29+08:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/user/1" typeof="sioc:UserAccount" property="foaf:name" datatype="">test</span> on Mon, 07/22/2024 - 14:14</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hello motherfucker!</p>
+</div></div></div><div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-above clearfix"><h3 class="field-label">Tags: </h3><ul class="links"><li class="taxonomy-term-reference-0" rel="dc:subject"><a href="/taxonomy/term/1" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">hello</a></li></ul></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/node/1" rel="tag" title="Hello">Read more<span class="element-invisible"> about Hello</span></a></li>
+<li class="comment_forbidden last"><span><a href="/user/login?destination=node/1%23comment-form">Log in</a> or <a href="/user/register?destination=node/1%23comment-form">register</a> to post comments</span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+      <a href="/rss.xml" class="feed-icon" title="Subscribe to 127.0.0.1 RSS"><img typeof="foaf:Image" src="http://127.0.0.1:8000/misc/feed.png" width="16" height="16" alt="Subscribe to 127.0.0.1 RSS" /></a>
+    </div></div> <!-- /.section, /#content -->
+
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+          <div id="footer" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  </body>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="http://127.0.0.1:8000/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>User account | 127.0.0.1</title>
+  <style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/modules/system/system.base.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.menus.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.messages.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.theme.css?sh0hbc");
+</style>
+<style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/modules/comment/comment.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/field/theme/field.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/node/node.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/search/search.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/user/user.css?sh0hbc");
+</style>
+<style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/themes/bartik/css/layout.css?sh0hbc");
+@import url("http://127.0.0.1:8000/themes/bartik/css/style.css?sh0hbc");
+@import url("http://127.0.0.1:8000/themes/bartik/css/colors.css?sh0hbc");
+</style>
+<style type="text/css" media="print">
+@import url("http://127.0.0.1:8000/themes/bartik/css/print.css?sh0hbc");
+</style>
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1:8000/themes/bartik/css/ie.css?sh0hbc" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1:8000/themes/bartik/css/ie6.css?sh0hbc" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/drupal.js?sh0hbc"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.cookie.js?v=1.0"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bartik","theme_token":"LU_jhHG306DoHkHY-6LoGs8hbPfFqwueEiwkCs0e9fQ","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/jquery.cookie.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/bartik\/css\/layout.css":1,"themes\/bartik\/css\/style.css":1,"themes\/bartik\/css\/colors.css":1,"themes\/bartik\/css\/print.css":1,"themes\/bartik\/css\/ie.css":1,"themes\/bartik\/css\/ie6.css":1}},"urlIsAjaxTrusted":{"\/user\/register":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-user page-user-register" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <div id="header" class="without-secondary-menu"><div class="section clearfix">
+
+          <a href="/" title="Home" rel="home" id="logo">
+        <img src="http://127.0.0.1:8000/themes/bartik/logo.png" alt="Home" />
+      </a>
+    
+          <div id="name-and-slogan">
+
+                              <div id="site-name">
+              <strong>
+                <a href="/" title="Home" rel="home"><span>127.0.0.1</span></a>
+              </strong>
+            </div>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+    
+    
+          <div id="main-menu" class="navigation">
+        <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-219 first last"><a href="/">Home</a></li>
+</ul>      </div> <!-- /#main-menu -->
+    
+    
+  </div></div> <!-- /.section, /#header -->
+
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+
+          <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a> » <a href="/user">User account</a></div></div>
+    
+    
+    <div id="content" class="column"><div class="section">
+            <a id="main-content"></a>
+                    <h1 class="title" id="page-title">
+          User account        </h1>
+                          <div class="tabs">
+          <h2 class="element-invisible">Primary tabs</h2><ul class="tabs primary"><li class="active"><a href="/user/register" class="active">Create new account<span class="element-invisible">(active tab)</span></a></li>
+<li><a href="/user">Log in</a></li>
+<li><a href="/user/password">Request new password</a></li>
+</ul>        </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <form class="user-info-from-cookie" enctype="multipart/form-data" action="/user/register" method="post" id="user-register-form" accept-charset="UTF-8"><div><div id="edit-account" class="form-wrapper"><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input class="username form-text required" type="text" id="edit-name" name="name" value="" size="60" maxlength="60" />
+<div class="description">Spaces are allowed; punctuation is not allowed except for periods, hyphens, apostrophes, and underscores.</div>
+</div>
+<div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail address <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="60" maxlength="254" class="form-text required" />
+<div class="description">A valid e-mail address. All e-mails from the system will be sent to this address. The e-mail address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by e-mail.</div>
+</div>
+<input type="hidden" name="timezone" value="Asia/Shanghai" />
+</div><input type="hidden" name="form_build_id" value="form-V4GRISq-dKgIZ8GBFXcrygKwWMtFS-rv7veQgRA89lQ" />
+<input type="hidden" name="form_id" value="user_register_form" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Create new account" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+          <div id="footer" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  </body>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="http://127.0.0.1:8000/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>User account | 127.0.0.1</title>
+  <style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/modules/system/system.base.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.menus.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.messages.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.theme.css?sh0hbc");
+</style>
+<style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/modules/comment/comment.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/field/theme/field.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/node/node.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/search/search.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/user/user.css?sh0hbc");
+</style>
+<style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/themes/bartik/css/layout.css?sh0hbc");
+@import url("http://127.0.0.1:8000/themes/bartik/css/style.css?sh0hbc");
+@import url("http://127.0.0.1:8000/themes/bartik/css/colors.css?sh0hbc");
+</style>
+<style type="text/css" media="print">
+@import url("http://127.0.0.1:8000/themes/bartik/css/print.css?sh0hbc");
+</style>
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1:8000/themes/bartik/css/ie.css?sh0hbc" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1:8000/themes/bartik/css/ie6.css?sh0hbc" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/drupal.js?sh0hbc"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bartik","theme_token":"NYUFpTAc9jC9OlfLxecvekfxaH31WiKhitBCVglxYEs","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/bartik\/css\/layout.css":1,"themes\/bartik\/css\/style.css":1,"themes\/bartik\/css\/colors.css":1,"themes\/bartik\/css\/print.css":1,"themes\/bartik\/css\/ie.css":1,"themes\/bartik\/css\/ie6.css":1}},"urlIsAjaxTrusted":{"\/user\/password":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-user page-user-password" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <div id="header" class="without-secondary-menu"><div class="section clearfix">
+
+          <a href="/" title="Home" rel="home" id="logo">
+        <img src="http://127.0.0.1:8000/themes/bartik/logo.png" alt="Home" />
+      </a>
+    
+          <div id="name-and-slogan">
+
+                              <div id="site-name">
+              <strong>
+                <a href="/" title="Home" rel="home"><span>127.0.0.1</span></a>
+              </strong>
+            </div>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+    
+    
+          <div id="main-menu" class="navigation">
+        <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-219 first last"><a href="/">Home</a></li>
+</ul>      </div> <!-- /#main-menu -->
+    
+    
+  </div></div> <!-- /.section, /#header -->
+
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+
+          <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a> » <a href="/user">User account</a></div></div>
+    
+    
+    <div id="content" class="column"><div class="section">
+            <a id="main-content"></a>
+                    <h1 class="title" id="page-title">
+          User account        </h1>
+                          <div class="tabs">
+          <h2 class="element-invisible">Primary tabs</h2><ul class="tabs primary"><li><a href="/user/register">Create new account</a></li>
+<li><a href="/user">Log in</a></li>
+<li class="active"><a href="/user/password" class="active">Request new password<span class="element-invisible">(active tab)</span></a></li>
+</ul>        </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <form action="/user/password" method="post" id="user-pass" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Username or e-mail address <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="60" maxlength="254" class="form-text required" />
+</div>
+<input type="hidden" name="form_build_id" value="form-bsa1qad5XZiwD1hWszJDgelKwTRHJwNAXq0wJE4sUuE" />
+<input type="hidden" name="form_id" value="user_pass" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="E-mail new password" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+          <div id="footer" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  </body>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/node/1" />
+<link rel="shortlink" href="/node/1" />
+<link rel="shortcut icon" href="http://127.0.0.1:8000/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>Hello | 127.0.0.1</title>
+  <style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/modules/system/system.base.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.menus.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.messages.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.theme.css?sh0hbc");
+</style>
+<style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/modules/comment/comment.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/field/theme/field.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/node/node.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/search/search.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/user/user.css?sh0hbc");
+</style>
+<style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/themes/bartik/css/layout.css?sh0hbc");
+@import url("http://127.0.0.1:8000/themes/bartik/css/style.css?sh0hbc");
+@import url("http://127.0.0.1:8000/themes/bartik/css/colors.css?sh0hbc");
+</style>
+<style type="text/css" media="print">
+@import url("http://127.0.0.1:8000/themes/bartik/css/print.css?sh0hbc");
+</style>
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1:8000/themes/bartik/css/ie.css?sh0hbc" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1:8000/themes/bartik/css/ie6.css?sh0hbc" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/drupal.js?sh0hbc"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bartik","theme_token":"w8SRChjkcS4HN3aDQyq29ywy36h4slPiY_G105Ia2GE","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/bartik\/css\/layout.css":1,"themes\/bartik\/css\/style.css":1,"themes\/bartik\/css\/colors.css":1,"themes\/bartik\/css\/print.css":1,"themes\/bartik\/css\/ie.css":1,"themes\/bartik\/css\/ie6.css":1}},"urlIsAjaxTrusted":{"\/node\/1?destination=node\/1":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-1 node-type-article" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <div id="header" class="without-secondary-menu"><div class="section clearfix">
+
+          <a href="/" title="Home" rel="home" id="logo">
+        <img src="http://127.0.0.1:8000/themes/bartik/logo.png" alt="Home" />
+      </a>
+    
+          <div id="name-and-slogan">
+
+                              <div id="site-name">
+              <strong>
+                <a href="/" title="Home" rel="home"><span>127.0.0.1</span></a>
+              </strong>
+            </div>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+    
+    
+          <div id="main-menu" class="navigation">
+        <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-219 first last"><a href="/">Home</a></li>
+</ul>      </div> <!-- /#main-menu -->
+    
+    
+  </div></div> <!-- /.section, /#header -->
+
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+
+          <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a></div></div>
+    
+          <div id="sidebar-first" class="column sidebar"><div class="section">
+          <div class="region region-sidebar-first">
+    <div id="block-user-login" class="block block-user">
+
+    <h2>User login</h2>
+  
+  <div class="content">
+    <form action="/node/1?destination=node/1" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Create a new user account.">Create new account</a></li>
+<li class="last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-jFWL8-F6F4-ZY5uz4TKN_VAm6ymyQQUOEsIDnuGTT1o" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Log in" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+      </div></div> <!-- /.section, /#sidebar-first -->
+    
+    <div id="content" class="column"><div class="section">
+            <a id="main-content"></a>
+                    <h1 class="title" id="page-title">
+          Hello        </h1>
+                          <div class="tabs">
+                  </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-1" class="node node-article node-promoted node-full clearfix" about="/node/1" typeof="sioc:Item foaf:Document">
+
+      <span property="dc:title" content="Hello" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2024-07-22T14:14:29+08:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/user/1" typeof="sioc:UserAccount" property="foaf:name" datatype="">test</span> on Mon, 07/22/2024 - 14:14</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hello motherfucker!</p>
+</div></div></div><div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-above clearfix"><h3 class="field-label">Tags: </h3><ul class="links"><li class="taxonomy-term-reference-0" rel="dc:subject"><a href="/taxonomy/term/1" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">hello</a></li></ul></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=node/1%23comment-form">Log in</a> or <a href="/user/register?destination=node/1%23comment-form">register</a> to post comments</span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+          <div id="footer" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  </body>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="RSS - hello" href="http://127.0.0.1:8000/taxonomy/term/1/feed" />
+<link rel="canonical" href="/taxonomy/term/1" />
+<link rel="shortlink" href="/taxonomy/term/1" />
+<meta about="/taxonomy/term/1" typeof="skos:Concept" property="rdfs:label skos:prefLabel" content="hello" />
+<link rel="shortcut icon" href="http://127.0.0.1:8000/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>hello | 127.0.0.1</title>
+  <style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/modules/system/system.base.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.menus.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.messages.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.theme.css?sh0hbc");
+</style>
+<style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/modules/comment/comment.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/field/theme/field.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/node/node.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/search/search.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/user/user.css?sh0hbc");
+</style>
+<style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/modules/taxonomy/taxonomy.css?sh0hbc");
+</style>
+<style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/themes/bartik/css/layout.css?sh0hbc");
+@import url("http://127.0.0.1:8000/themes/bartik/css/style.css?sh0hbc");
+@import url("http://127.0.0.1:8000/themes/bartik/css/colors.css?sh0hbc");
+</style>
+<style type="text/css" media="print">
+@import url("http://127.0.0.1:8000/themes/bartik/css/print.css?sh0hbc");
+</style>
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1:8000/themes/bartik/css/ie.css?sh0hbc" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1:8000/themes/bartik/css/ie6.css?sh0hbc" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/drupal.js?sh0hbc"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bartik","theme_token":"UARtTToK-6aMUdDIjy--HZolmjIqIoYo25HnI4reZ98","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/taxonomy\/taxonomy.css":1,"themes\/bartik\/css\/layout.css":1,"themes\/bartik\/css\/style.css":1,"themes\/bartik\/css\/colors.css":1,"themes\/bartik\/css\/print.css":1,"themes\/bartik\/css\/ie.css":1,"themes\/bartik\/css\/ie6.css":1}},"urlIsAjaxTrusted":{"\/taxonomy\/term\/1?destination=taxonomy\/term\/1":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-1" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <div id="header" class="without-secondary-menu"><div class="section clearfix">
+
+          <a href="/" title="Home" rel="home" id="logo">
+        <img src="http://127.0.0.1:8000/themes/bartik/logo.png" alt="Home" />
+      </a>
+    
+          <div id="name-and-slogan">
+
+                              <div id="site-name">
+              <strong>
+                <a href="/" title="Home" rel="home"><span>127.0.0.1</span></a>
+              </strong>
+            </div>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+    
+    
+          <div id="main-menu" class="navigation">
+        <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-219 first last"><a href="/">Home</a></li>
+</ul>      </div> <!-- /#main-menu -->
+    
+    
+  </div></div> <!-- /.section, /#header -->
+
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+
+          <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a></div></div>
+    
+          <div id="sidebar-first" class="column sidebar"><div class="section">
+          <div class="region region-sidebar-first">
+    <div id="block-user-login" class="block block-user">
+
+    <h2>User login</h2>
+  
+  <div class="content">
+    <form action="/taxonomy/term/1?destination=taxonomy/term/1" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Create a new user account.">Create new account</a></li>
+<li class="last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-xSBYjCCUWHLNNbsp0dm-FqVL6IbPZKxhn5eXejQWoFA" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Log in" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+      </div></div> <!-- /.section, /#sidebar-first -->
+    
+    <div id="content" class="column"><div class="section">
+            <a id="main-content"></a>
+                    <h1 class="title" id="page-title">
+          hello        </h1>
+                          <div class="tabs">
+                  </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="term-listing-heading"><div id="taxonomy-term-1" class="taxonomy-term vocabulary-tags">
+
+  
+  <div class="content">
+      </div>
+
+</div>
+</div><div id="node-1" class="node node-article node-promoted node-teaser clearfix" about="/node/1" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/node/1">Hello</a>
+    </h2>
+    <span property="dc:title" content="Hello" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      <div class="meta submitted">
+            <span property="dc:date dc:created" content="2024-07-22T14:14:29+08:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/user/1" typeof="sioc:UserAccount" property="foaf:name" datatype="">test</span> on Mon, 07/22/2024 - 14:14</span>    </div>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hello motherfucker!</p>
+</div></div></div><div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-above clearfix"><h3 class="field-label">Tags: </h3><ul class="links"><li class="taxonomy-term-reference-0" rel="dc:subject"><a href="/taxonomy/term/1" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="active">hello</a></li></ul></div>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first"><a href="/node/1" rel="tag" title="Hello">Read more<span class="element-invisible"> about Hello</span></a></li>
+<li class="comment_forbidden last"><span><a href="/user/login?destination=node/1%23comment-form">Log in</a> or <a href="/user/register?destination=node/1%23comment-form">register</a> to post comments</span></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+      <a href="/taxonomy/term/1/feed" class="feed-icon" title="Subscribe to RSS - hello"><img typeof="foaf:Image" src="http://127.0.0.1:8000/misc/feed.png" width="16" height="16" alt="Subscribe to RSS - hello" /></a>
+    </div></div> <!-- /.section, /#content -->
+
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+          <div id="footer" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  </body>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="http://127.0.0.1:8000/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>User account | 127.0.0.1</title>
+  <style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/modules/system/system.base.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.menus.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.messages.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.theme.css?sh0hbc");
+</style>
+<style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/modules/comment/comment.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/field/theme/field.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/node/node.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/search/search.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/user/user.css?sh0hbc");
+</style>
+<style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/themes/bartik/css/layout.css?sh0hbc");
+@import url("http://127.0.0.1:8000/themes/bartik/css/style.css?sh0hbc");
+@import url("http://127.0.0.1:8000/themes/bartik/css/colors.css?sh0hbc");
+</style>
+<style type="text/css" media="print">
+@import url("http://127.0.0.1:8000/themes/bartik/css/print.css?sh0hbc");
+</style>
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1:8000/themes/bartik/css/ie.css?sh0hbc" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1:8000/themes/bartik/css/ie6.css?sh0hbc" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/drupal.js?sh0hbc"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bartik","theme_token":"Yzswp575ldxtpkkK8EmqbC7T9lVwy5KN6fnG_gVg2mo","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/bartik\/css\/layout.css":1,"themes\/bartik\/css\/style.css":1,"themes\/bartik\/css\/colors.css":1,"themes\/bartik\/css\/print.css":1,"themes\/bartik\/css\/ie.css":1,"themes\/bartik\/css\/ie6.css":1}},"urlIsAjaxTrusted":{"\/user\/login?destination=node\/1%23comment-form":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-user page-user-login" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <div id="header" class="without-secondary-menu"><div class="section clearfix">
+
+          <a href="/" title="Home" rel="home" id="logo">
+        <img src="http://127.0.0.1:8000/themes/bartik/logo.png" alt="Home" />
+      </a>
+    
+          <div id="name-and-slogan">
+
+                              <div id="site-name">
+              <strong>
+                <a href="/" title="Home" rel="home"><span>127.0.0.1</span></a>
+              </strong>
+            </div>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+    
+    
+          <div id="main-menu" class="navigation">
+        <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-219 first last"><a href="/">Home</a></li>
+</ul>      </div> <!-- /#main-menu -->
+    
+    
+  </div></div> <!-- /.section, /#header -->
+
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+
+          <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a></div></div>
+    
+    
+    <div id="content" class="column"><div class="section">
+            <a id="main-content"></a>
+                    <h1 class="title" id="page-title">
+          User account        </h1>
+                          <div class="tabs">
+          <h2 class="element-invisible">Primary tabs</h2><ul class="tabs primary"><li><a href="/user/register">Create new account</a></li>
+<li class="active"><a href="/user" class="active">Log in<span class="element-invisible">(active tab)</span></a></li>
+<li><a href="/user/password">Request new password</a></li>
+</ul>        </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <form action="/user/login?destination=node/1%23comment-form" method="post" id="user-login" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="60" maxlength="60" class="form-text required" />
+<div class="description">Enter your 127.0.0.1 username.</div>
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="60" maxlength="128" class="form-text required" />
+<div class="description">Enter the password that accompanies your username.</div>
+</div>
+<input type="hidden" name="form_build_id" value="form-8L8jHZpQbpuPhNbWikaaFYpggSZTp4jdRCbwPz7ydho" />
+<input type="hidden" name="form_id" value="user_login" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Log in" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+          <div id="footer" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  </body>
+</html>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://127.0.0.1:8000"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>127.0.0.1</title>
+ <link>http://127.0.0.1:8000</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Hello</title>
+ <link>http://127.0.0.1:8000/node/1</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Hello motherfucker!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above clearfix&quot;&gt;&lt;h3 class=&quot;field-label&quot;&gt;Tags: &lt;/h3&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;taxonomy-term-reference-0&quot; rel=&quot;dc:subject&quot;&gt;&lt;a href=&quot;/taxonomy/term/1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;hello&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 22 Jul 2024 06:14:29 +0000</pubDate>
+ <dc:creator>test</dc:creator>
+ <guid isPermaLink="false">1 at http://127.0.0.1:8000</guid>
+ <comments>http://127.0.0.1:8000/node/1#comments</comments>
+</item>
+</channel>
+</rss>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="http://127.0.0.1:8000/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>User account | 127.0.0.1</title>
+  <style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/modules/system/system.base.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.menus.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.messages.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/system/system.theme.css?sh0hbc");
+</style>
+<style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/modules/comment/comment.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/field/theme/field.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/node/node.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/search/search.css?sh0hbc");
+@import url("http://127.0.0.1:8000/modules/user/user.css?sh0hbc");
+</style>
+<style type="text/css" media="all">
+@import url("http://127.0.0.1:8000/themes/bartik/css/layout.css?sh0hbc");
+@import url("http://127.0.0.1:8000/themes/bartik/css/style.css?sh0hbc");
+@import url("http://127.0.0.1:8000/themes/bartik/css/colors.css?sh0hbc");
+</style>
+<style type="text/css" media="print">
+@import url("http://127.0.0.1:8000/themes/bartik/css/print.css?sh0hbc");
+</style>
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1:8000/themes/bartik/css/ie.css?sh0hbc" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="http://127.0.0.1:8000/themes/bartik/css/ie6.css?sh0hbc" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/drupal.js?sh0hbc"></script>
+<script type="text/javascript" src="http://127.0.0.1:8000/misc/jquery.cookie.js?v=1.0"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bartik","theme_token":"kq0QVPGYjx0gOqjJxAY5ql50BBplKWBdq0ngo8FrFYk","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/jquery.cookie.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/bartik\/css\/layout.css":1,"themes\/bartik\/css\/style.css":1,"themes\/bartik\/css\/colors.css":1,"themes\/bartik\/css\/print.css":1,"themes\/bartik\/css\/ie.css":1,"themes\/bartik\/css\/ie6.css":1}},"urlIsAjaxTrusted":{"\/user\/register?destination=node\/1%23comment-form":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-user page-user-register" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <div id="header" class="without-secondary-menu"><div class="section clearfix">
+
+          <a href="/" title="Home" rel="home" id="logo">
+        <img src="http://127.0.0.1:8000/themes/bartik/logo.png" alt="Home" />
+      </a>
+    
+          <div id="name-and-slogan">
+
+                              <div id="site-name">
+              <strong>
+                <a href="/" title="Home" rel="home"><span>127.0.0.1</span></a>
+              </strong>
+            </div>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+    
+    
+          <div id="main-menu" class="navigation">
+        <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-219 first last"><a href="/">Home</a></li>
+</ul>      </div> <!-- /#main-menu -->
+    
+    
+  </div></div> <!-- /.section, /#header -->
+
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+
+          <div id="breadcrumb"><h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a> » <a href="/user">User account</a></div></div>
+    
+    
+    <div id="content" class="column"><div class="section">
+            <a id="main-content"></a>
+                    <h1 class="title" id="page-title">
+          User account        </h1>
+                          <div class="tabs">
+          <h2 class="element-invisible">Primary tabs</h2><ul class="tabs primary"><li class="active"><a href="/user/register" class="active">Create new account<span class="element-invisible">(active tab)</span></a></li>
+<li><a href="/user">Log in</a></li>
+<li><a href="/user/password">Request new password</a></li>
+</ul>        </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <form class="user-info-from-cookie" enctype="multipart/form-data" action="/user/register?destination=node/1%23comment-form" method="post" id="user-register-form" accept-charset="UTF-8"><div><div id="edit-account" class="form-wrapper"><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input class="username form-text required" type="text" id="edit-name" name="name" value="" size="60" maxlength="60" />
+<div class="description">Spaces are allowed; punctuation is not allowed except for periods, hyphens, apostrophes, and underscores.</div>
+</div>
+<div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">E-mail address <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mail" name="mail" value="" size="60" maxlength="254" class="form-text required" />
+<div class="description">A valid e-mail address. All e-mails from the system will be sent to this address. The e-mail address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by e-mail.</div>
+</div>
+<input type="hidden" name="timezone" value="Asia/Shanghai" />
+</div><input type="hidden" name="form_build_id" value="form-cz_uXzf46rUioxkIiAv6yoMXXIhay0OGq0yVRkZgC9M" />
+<input type="hidden" name="form_id" value="user_register_form" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Create new account" class="form-submit" /></div></div></form>  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+          <div id="footer" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system">
+
+    
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+      </div> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  </body>
+</html>

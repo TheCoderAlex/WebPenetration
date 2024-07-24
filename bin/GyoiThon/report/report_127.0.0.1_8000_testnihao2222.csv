@@ -1,0 +1,367 @@
+fqdn,ip_addr,port,cloud_type,method,origin_url,url,vendor_name,prod_name,prod_version,prod_trigger,prod_type,prod_vuln,origin_login,origin_login_trigger,wrong_comment,error_msg,server_header,log,date
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register,-,-,-,-,-,-,"Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091540539.log,2024/07/24 09:15:40
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register,php,php,7.0.28,PHP/7.0.28,Language,Cannot search.,"Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091540539.log,2024/07/24 09:15:40
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register,drupal,drupal,*,jQuery.extend(Drupal.settings,CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091540539.log,2024/07/24 09:15:40
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register,drupal,drupal,*,"<meta name=""Generator"" content=""Drupal",CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091540539.log,2024/07/24 09:15:40
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register,apache,http_server,2.4.10,Apache/2.4.10,Web,"CVE-2015-3184
+","Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091540539.log,2024/07/24 09:15:40
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register,drupal,drupal,7.0,X-Generator: Drupal 7,CMS,Cannot search.,"Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091540539.log,2024/07/24 09:15:40
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1#main-content,-,-,-,-,-,-,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541043.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1#main-content,php,php,7.0.28,PHP/7.0.28,Language,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541043.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1#main-content,drupal,drupal,*,jQuery.extend(Drupal.settings,CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541043.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1#main-content,drupal,drupal,*,"<meta name=""Generator"" content=""Drupal",CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541043.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1#main-content,apache,http_server,2.4.10,Apache/2.4.10,Web,"CVE-2015-3184
+","Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541043.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1#main-content,drupal,drupal,7.0,X-Generator: Drupal 7,CMS,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541043.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/login?destination=node/1%23comment-form#main-content,-,-,-,-,-,-,"Log : - %
+Url : 100.0 %","Log : -
+Url : login",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541494.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/login?destination=node/1%23comment-form#main-content,apache,http_server,2.4.10,Apache/2.4.10,Web,"CVE-2015-3184
+","Log : - %
+Url : 100.0 %","Log : -
+Url : login",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541494.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1/feed,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541556.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1/feed,apache,http_server,2.4.10,Apache/2.4.10,Web,"CVE-2015-3184
+","Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541556.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1/feed,php,php,7.0.28,PHP/7.0.28,Language,Cannot search.,"Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541556.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1/feed,*,test,*,test,OS,Cannot search.,"Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541556.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1/feed,*,test,*,test,FRAMEWORK,Cannot search.,"Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541556.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1/feed,*,test,*,test,WEB,Cannot search.,"Log : 25.0 %
+Url : 0.0 %","Log : uid
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541556.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/password,-,-,-,-,-,-,"Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541791.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/password,php,php,7.0.28,PHP/7.0.28,Language,Cannot search.,"Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541791.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/password,drupal,drupal,*,jQuery.extend(Drupal.settings,CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541791.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/password,drupal,drupal,*,"<meta name=""Generator"" content=""Drupal",CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541791.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/password,apache,http_server,2.4.10,Apache/2.4.10,Web,"CVE-2015-3184
+","Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541791.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/password,drupal,drupal,7.0,X-Generator: Drupal 7,CMS,Cannot search.,"Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091541791.log,2024/07/24 09:15:41
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register?destination=node/1%23comment-form#main-content,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542246.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register?destination=node/1%23comment-form#main-content,apache,http_server,2.4.10,Apache/2.4.10,Web,"CVE-2015-3184
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542246.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/node/1,-,-,-,-,-,-,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542308.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/node/1,php,php,7.0.28,PHP/7.0.28,Language,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542308.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/node/1,drupal,drupal,*,jQuery.extend(Drupal.settings,CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542308.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/node/1,drupal,drupal,*,"<meta name=""Generator"" content=""Drupal",CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542308.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/node/1,apache,http_server,2.4.10,Apache/2.4.10,Web,"CVE-2015-3184
+","Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542308.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/node/1,drupal,drupal,7.0,X-Generator: Drupal 7,CMS,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542308.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/node/1,*,test,*,test,OS,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542308.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/node/1,*,test,*,test,FRAMEWORK,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542308.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/node/1,*,test,*,test,WEB,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542308.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1/favicon.ico,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,-,/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542869.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user,-,-,-,-,-,-,"Log : 50.0 %
+Url : 0.0 %","Log : Log in@Username@name""@<input type=""password""@username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542873.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user,php,php,7.0.28,PHP/7.0.28,Language,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : Log in@Username@name""@<input type=""password""@username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542873.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user,drupal,drupal,*,jQuery.extend(Drupal.settings,CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 50.0 %
+Url : 0.0 %","Log : Log in@Username@name""@<input type=""password""@username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542873.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user,drupal,drupal,*,"<meta name=""Generator"" content=""Drupal",CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 50.0 %
+Url : 0.0 %","Log : Log in@Username@name""@<input type=""password""@username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542873.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user,apache,http_server,2.4.10,Apache/2.4.10,Web,"CVE-2015-3184
+","Log : 50.0 %
+Url : 0.0 %","Log : Log in@Username@name""@<input type=""password""@username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542873.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user,drupal,drupal,7.0,X-Generator: Drupal 7,CMS,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : Log in@Username@name""@<input type=""password""@username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091542873.log,2024/07/24 09:15:42
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/password#main-content,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : name""
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091543311.log,2024/07/24 09:15:43
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/password#main-content,php,php,7.0.28,PHP/7.0.28,Language,Cannot search.,"Log : 25.0 %
+Url : 0.0 %","Log : name""
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091543311.log,2024/07/24 09:15:43
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/password#main-content,drupal,drupal,*,jQuery.extend(Drupal.settings,CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 25.0 %
+Url : 0.0 %","Log : name""
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091543311.log,2024/07/24 09:15:43
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/password#main-content,drupal,drupal,*,"<meta name=""Generator"" content=""Drupal",CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 25.0 %
+Url : 0.0 %","Log : name""
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091543311.log,2024/07/24 09:15:43
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/password#main-content,apache,http_server,2.4.10,Apache/2.4.10,Web,"CVE-2015-3184
+","Log : 25.0 %
+Url : 0.0 %","Log : name""
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091543311.log,2024/07/24 09:15:43
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/password#main-content,drupal,drupal,7.0,X-Generator: Drupal 7,CMS,Cannot search.,"Log : 25.0 %
+Url : 0.0 %","Log : name""
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091543311.log,2024/07/24 09:15:43
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/login?destination=node/1%23comment-form,-,-,-,-,-,-,"Log : 50.0 %
+Url : 100.0 %","Log : Log in@Username@name""@<input type=""password""@username
+Url : login",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091543706.log,2024/07/24 09:15:43
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/login?destination=node/1%23comment-form,php,php,7.0.28,PHP/7.0.28,Language,Cannot search.,"Log : 50.0 %
+Url : 100.0 %","Log : Log in@Username@name""@<input type=""password""@username
+Url : login",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091543706.log,2024/07/24 09:15:43
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/login?destination=node/1%23comment-form,drupal,drupal,*,jQuery.extend(Drupal.settings,CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 50.0 %
+Url : 100.0 %","Log : Log in@Username@name""@<input type=""password""@username
+Url : login",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091543706.log,2024/07/24 09:15:43
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/login?destination=node/1%23comment-form,drupal,drupal,*,"<meta name=""Generator"" content=""Drupal",CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 50.0 %
+Url : 100.0 %","Log : Log in@Username@name""@<input type=""password""@username
+Url : login",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091543706.log,2024/07/24 09:15:43
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/login?destination=node/1%23comment-form,apache,http_server,2.4.10,Apache/2.4.10,Web,"CVE-2015-3184
+","Log : 50.0 %
+Url : 100.0 %","Log : Log in@Username@name""@<input type=""password""@username
+Url : login",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091543706.log,2024/07/24 09:15:43
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/login?destination=node/1%23comment-form,drupal,drupal,7.0,X-Generator: Drupal 7,CMS,Cannot search.,"Log : 50.0 %
+Url : 100.0 %","Log : Log in@Username@name""@<input type=""password""@username
+Url : login",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091543706.log,2024/07/24 09:15:43
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1,-,-,-,-,-,-,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544154.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1,php,php,7.0.28,PHP/7.0.28,Language,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544154.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1,drupal,drupal,*,jQuery.extend(Drupal.settings,CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544154.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1,drupal,drupal,*,"<meta name=""Generator"" content=""Drupal",CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544154.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1,apache,http_server,2.4.10,Apache/2.4.10,Web,"CVE-2015-3184
+","Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544154.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1,drupal,drupal,7.0,X-Generator: Drupal 7,CMS,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544154.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1,*,test,*,test,OS,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544154.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1,*,test,*,test,FRAMEWORK,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544154.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1,*,test,*,test,WEB,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544154.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/taxonomy/term/1,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544154.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,-,-,-,-,-,-,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544770.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,php,php,7.0.28,PHP/7.0.28,Language,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544770.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,drupal,drupal,*,jQuery.extend(Drupal.settings,CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544770.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,drupal,drupal,*,"<meta name=""Generator"" content=""Drupal",CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544770.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,apache,http_server,2.4.10,Apache/2.4.10,Web,"CVE-2015-3184
+","Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544770.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,drupal,drupal,7.0,X-Generator: Drupal 7,CMS,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544770.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,*,test,*,test,OS,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544770.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,*,test,*,test,FRAMEWORK,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544770.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/,*,test,*,test,WEB,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091544770.log,2024/07/24 09:15:44
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register#main-content,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : name""
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091545329.log,2024/07/24 09:15:45
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register#main-content,php,php,7.0.28,PHP/7.0.28,Language,Cannot search.,"Log : 25.0 %
+Url : 0.0 %","Log : name""
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091545329.log,2024/07/24 09:15:45
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register#main-content,drupal,drupal,*,jQuery.extend(Drupal.settings,CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 25.0 %
+Url : 0.0 %","Log : name""
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091545329.log,2024/07/24 09:15:45
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register#main-content,drupal,drupal,*,"<meta name=""Generator"" content=""Drupal",CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 25.0 %
+Url : 0.0 %","Log : name""
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091545329.log,2024/07/24 09:15:45
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register#main-content,apache,http_server,2.4.10,Apache/2.4.10,Web,"CVE-2015-3184
+","Log : 25.0 %
+Url : 0.0 %","Log : name""
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091545329.log,2024/07/24 09:15:45
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register#main-content,drupal,drupal,7.0,X-Generator: Drupal 7,CMS,Cannot search.,"Log : 25.0 %
+Url : 0.0 %","Log : name""
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091545329.log,2024/07/24 09:15:45
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register?destination=node/1%23comment-form,-,-,-,-,-,-,"Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091545728.log,2024/07/24 09:15:45
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register?destination=node/1%23comment-form,php,php,7.0.28,PHP/7.0.28,Language,Cannot search.,"Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091545728.log,2024/07/24 09:15:45
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register?destination=node/1%23comment-form,drupal,drupal,*,jQuery.extend(Drupal.settings,CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091545728.log,2024/07/24 09:15:45
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register?destination=node/1%23comment-form,drupal,drupal,*,"<meta name=""Generator"" content=""Drupal",CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091545728.log,2024/07/24 09:15:45
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register?destination=node/1%23comment-form,apache,http_server,2.4.10,Apache/2.4.10,Web,"CVE-2015-3184
+","Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091545728.log,2024/07/24 09:15:45
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/user/register?destination=node/1%23comment-form,drupal,drupal,7.0,X-Generator: Drupal 7,CMS,Cannot search.,"Log : 37.5 %
+Url : 0.0 %","Log : name""@Log in@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091545728.log,2024/07/24 09:15:45
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/node/1#main-content,-,-,-,-,-,-,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091546223.log,2024/07/24 09:15:46
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/node/1#main-content,php,php,7.0.28,PHP/7.0.28,Language,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091546223.log,2024/07/24 09:15:46
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/node/1#main-content,drupal,drupal,*,jQuery.extend(Drupal.settings,CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091546223.log,2024/07/24 09:15:46
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/node/1#main-content,drupal,drupal,*,"<meta name=""Generator"" content=""Drupal",CMS,"CVE-2016-3171
+CVE-2016-3167
+CVE-2009-3350
+","Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091546223.log,2024/07/24 09:15:46
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/node/1#main-content,apache,http_server,2.4.10,Apache/2.4.10,Web,"CVE-2015-3184
+","Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091546223.log,2024/07/24 09:15:46
+127.0.0.1,127.0.0.1,8000,Unknown,Crawling,http://127.0.0.1:8000/,http://127.0.0.1:8000/node/1#main-content,drupal,drupal,7.0,X-Generator: Drupal 7,CMS,Cannot search.,"Log : 50.0 %
+Url : 0.0 %","Log : name""@Log in@<input type=""password""@Username
+Url : -",-,-,Server: Apache/2.4.10 (Debian),/home/alextang/WebPenetration/bin/GyoiThon/logs/127.0.0.1_8000/http_127.0.0.1_8000_20240724091546223.log,2024/07/24 09:15:46
